@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2726491829759106723
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7250742759115739958}
+  - component: {fileID: 331736103383562444}
+  m_Layer: 0
+  m_Name: Mejoras
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7250742759115739958
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2726491829759106723}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.22605, y: -0.21019, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &331736103383562444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2726491829759106723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f27e3f3534a4242b7bd63180912726, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Mejoras
+  playerUpgrades:
+    speed: 0
+    health: 0
+    energy: 0
+    powerUps: 0
+    chanceOfPowerUps: 0
+    shootRate: 0
+    betterEnemies: 0
+    revive: 0
+    enemiesRatingSpawn: 0
+    enemiesRatingSpawnMin: 0
+    earnPointsOfEnemy1: 0
+    earnPointsOfEnemy2: 0
+    earnPointsOfEnemy3: 0
+    damage: 2
+    swordWeapon: 0
+    missileWeapon: 0
+    vampirism: 0
+  upgradesInfo:
+  - {fileID: 11400000, guid: a3374a233ad79f143b8683071e566075, type: 2}
+  - {fileID: 11400000, guid: e88da025c13e2ea438753ec02e743775, type: 2}
+  - {fileID: 11400000, guid: faaf1c1a862b8804591b8f8d44b56d6b, type: 2}
+  - {fileID: 11400000, guid: 8e0abffe3544b8941b13e9cca11d90c5, type: 2}
+  - {fileID: 11400000, guid: acff847e989cc40419da8725367d47a4, type: 2}
+  - {fileID: 11400000, guid: c6d148b68e497d6499f9f926623b39a8, type: 2}
+  - {fileID: 11400000, guid: 83c1855590b4ebc4eb4180889865a8f5, type: 2}
+  - {fileID: 11400000, guid: 8a24e5219fe836e47911b1988a86e425, type: 2}
+  - {fileID: 11400000, guid: 8aea5c5e138b528438deeeb3b13ee7e0, type: 2}
+  - {fileID: 11400000, guid: 3d848f853051fda4b96ad9a292fd6139, type: 2}
+  - {fileID: 11400000, guid: 262d4f9c36d7d87469a4eb4907d0c290, type: 2}
+  - {fileID: 11400000, guid: 2cbeef616ac0cc84a88cb4e8ac64a09c, type: 2}
+  - {fileID: 11400000, guid: 61d90c0d6208a6843a82c5853c3e06fb, type: 2}
+  - {fileID: 11400000, guid: 07447b9ca2d4d924abad83729b8c6644, type: 2}
+  - {fileID: 11400000, guid: 788549f8f7e35874fb95b3d510f6729e, type: 2}
+  - {fileID: 11400000, guid: 0438156976901dd42b593117784b6286, type: 2}
+  - {fileID: 11400000, guid: 9fb352f5fee27e4479066a31c3da35a8, type: 2}
+  initUpgrades:
+    speed: 0
+    health: 0
+    energy: 0
+    powerUps: 0
+    chanceOfPowerUps: 0
+    shootRate: 0
+    betterEnemies: 0
+    revive: 0
+    enemiesRatingSpawn: 0
+    enemiesRatingSpawnMin: 0
+    earnPointsOfEnemy1: 0
+    earnPointsOfEnemy2: 0
+    earnPointsOfEnemy3: 0
+    damage: 0
+    swordWeapon: 0
+    missileWeapon: 0
+    vampirism: 0
