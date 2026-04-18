@@ -8,9 +8,41 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2415132272067283519, guid: c8e471f5c9268074da6097b015e13a65, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: ffbd915dfa20bc341b577c308a60a499, type: 2}
+    - target: {fileID: 3831625269107172406, guid: c8e471f5c9268074da6097b015e13a65, type: 3}
+      propertyPath: speed
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3831625269107172406, guid: c8e471f5c9268074da6097b015e13a65, type: 3}
+      propertyPath: health
+      value: 3000
+      objectReference: {fileID: 0}
+    - target: {fileID: 3831625269107172406, guid: c8e471f5c9268074da6097b015e13a65, type: 3}
+      propertyPath: littleAnt
+      value: 
+      objectReference: {fileID: 224064804134331000, guid: b4f15d0b6b180124988befb2f1c43a60, type: 3}
+    - target: {fileID: 3831625269107172406, guid: c8e471f5c9268074da6097b015e13a65, type: 3}
+      propertyPath: enemyBullet
+      value: 
+      objectReference: {fileID: 6434860642527961589, guid: 97dc46c796a1bb84fbb0961f1c69515d, type: 3}
+    - target: {fileID: 3831625269107172406, guid: c8e471f5c9268074da6097b015e13a65, type: 3}
+      propertyPath: valueOfPoints
+      value: 9999
+      objectReference: {fileID: 0}
+    - target: {fileID: 3831625269107172406, guid: c8e471f5c9268074da6097b015e13a65, type: 3}
+      propertyPath: timeBetweenAttacks
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3831625269107172406, guid: c8e471f5c9268074da6097b015e13a65, type: 3}
+      propertyPath: timeBetweenBullets
+      value: 0.15
+      objectReference: {fileID: 0}
     - target: {fileID: 3932482427075417332, guid: c8e471f5c9268074da6097b015e13a65, type: 3}
       propertyPath: m_Name
-      value: AngelAnt
+      value: AngelAnt3
       objectReference: {fileID: 0}
     - target: {fileID: 6632104890754516829, guid: c8e471f5c9268074da6097b015e13a65, type: 3}
       propertyPath: m_LocalPosition.x
@@ -52,6 +84,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6783790191301804359, guid: c8e471f5c9268074da6097b015e13a65, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -7137709317767104135, guid: 0ba7c93575db4644cbc6a09f8887d08a, type: 3}
+    - target: {fileID: 6908819700054269333, guid: c8e471f5c9268074da6097b015e13a65, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 4755230817024261093, guid: d04de0c6cff25bd4d8f6eaaab6edb048, type: 3}
+    - target: {fileID: 8235641335035515841, guid: c8e471f5c9268074da6097b015e13a65, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 6317f7deb38006f46bb4861196454d43, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

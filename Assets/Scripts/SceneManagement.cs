@@ -11,6 +11,11 @@ public class SceneManagement : MonoBehaviour
         else Destroy(gameObject);
     }
 
+    public void GoToMainMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
+
     public void LoadGame()
     {
         SceneManager.LoadScene(1);

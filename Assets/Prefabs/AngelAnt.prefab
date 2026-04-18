@@ -286,6 +286,7 @@ MonoBehaviour:
   health: 600
   timeBeingWhite: 0.1
   valueOfPoints: 250
+  ballPoint: {fileID: 6930669838694683785, guid: f9730fd9f352cb441af8eccae72a435d, type: 3}
   speedOnApearing: 1
   posToStartAttacking: {x: 6.5, y: 0, z: 0}
   timeBetweenAttacks: 2

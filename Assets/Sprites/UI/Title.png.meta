@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 2ca8171ee71f5dd4ea7934519f823d1f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8777814329660036947
+    second: Recurso 8_0
+  - first:
+      213: -2836041182828767192
+    second: Recurso 8_1
+  - first:
+      213: -1646765989128318366
+    second: Recurso 8_2
+  - first:
+      213: 2255160965537699041
+    second: Recurso 8_3
+  - first:
+      213: -6591963138282050675
+    second: Recurso 8_4
+  - first:
+      213: -5362138107256314435
+    second: Recurso 8_5
+  - first:
+      213: 6660840292050392906
+    second: Recurso 8_6
+  - first:
+      213: -8437397911068392333
+    second: Recurso 8_7
+  - first:
+      213: 7033060967376297563
+    second: Recurso 8_8
+  - first:
+      213: 2867024934463706522
+    second: Recurso 8_9
+  - first:
+      213: -7491801338368308515
+    second: Recurso 8_10
+  - first:
+      213: -9166529631558227321
+    second: Recurso 8_11
+  - first:
+      213: -3296631908614036728
+    second: Recurso 8_12
+  - first:
+      213: 268133177476711832
+    second: Recurso 8_13
+  - first:
+      213: -8563982840048919212
+    second: Recurso 8_14
+  - first:
+      213: 4323048706321370887
+    second: Recurso 8_15
+  - first:
+      213: -1592523149296312211
+    second: Recurso 8_16
+  - first:
+      213: 18757666629707870
+    second: Recurso 8_17
+  - first:
+      213: 2966148578954378017
+    second: Recurso 8_18
+  - first:
+      213: -703454636693818916
+    second: Recurso 8_19
+  - first:
+      213: -3267833379050520569
+    second: Recurso 8_20
+  - first:
+      213: -1051475971359291960
+    second: Recurso 8_21
+  - first:
+      213: 4247468757917499147
+    second: Recurso 8_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 140
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Recurso 8_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 23
+        width: 11
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35758bf30af01d970800000000000000
+      internalID: 8777814329660036947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recurso 8_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 22
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 828dc19f19b54a8d0800000000000000
+      internalID: -2836041182828767192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recurso 8_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 21
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 262dfcdce038529e0800000000000000
+      internalID: -1646765989128318366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recurso 8_3
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 22
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e4933623f0fb4f10800000000000000
+      internalID: 2255160965537699041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recurso 8_4
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 22
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8baa329374a484a0800000000000000
+      internalID: -6591963138282050675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recurso 8_5
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 23
+        width: 48
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db5e6602dcbd595b0800000000000000
+      internalID: -5362138107256314435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recurso 8_6
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 22
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a47d54974fe007c50800000000000000
+      internalID: 6660840292050392906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recurso 8_7
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 22
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 374452a9d4758ea80800000000000000
+      internalID: -8437397911068392333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recurso 8_8
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 22
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5e1124efa37a9160800000000000000
+      internalID: 7033060967376297563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recurso 8_9
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 22
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9595ecdcf7b9c720800000000000000
+      internalID: 2867024934463706522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recurso 8_10
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 21
+        width: 11
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddac2c24066c70890800000000000000
+      internalID: -7491801338368308515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recurso 8_11
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 22
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78a21efcdd1f9c080800000000000000
+      internalID: -9166529631558227321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recurso 8_12
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 7
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 803a7d3deb20042d0800000000000000
+      internalID: -3296631908614036728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recurso 8_13
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 22
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8950ffb44b998b300800000000000000
+      internalID: 268133177476711832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recurso 8_14
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 21
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45dd75c1bfe962980800000000000000
+      internalID: -8563982840048919212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recurso 8_15
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 22
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70f4ff6d4ed8efb30800000000000000
+      internalID: 4323048706321370887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recurso 8_16
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 22
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d606b9d12a836e9e0800000000000000
+      internalID: -1592523149296312211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recurso 8_17
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 23
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5867489ff3a24000800000000000000
+      internalID: 18757666629707870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recurso 8_18
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 21
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12bfa9fca60e92920800000000000000
+      internalID: 2966148578954378017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recurso 8_19
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 21
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd173482cb3dc36f0800000000000000
+      internalID: -703454636693818916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recurso 8_20
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 22
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70087800bd256a2d0800000000000000
+      internalID: -3267833379050520569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recurso 8_21
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 22
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c5454dcc286861f0800000000000000
+      internalID: -1051475971359291960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recurso 8_22
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 22
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0ffd3ec45a02fa30800000000000000
+      internalID: 4247468757917499147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Recurso 8_0: 8777814329660036947
+      Recurso 8_1: -2836041182828767192
+      Recurso 8_10: -7491801338368308515
+      Recurso 8_11: -9166529631558227321
+      Recurso 8_12: -3296631908614036728
+      Recurso 8_13: 268133177476711832
+      Recurso 8_14: -8563982840048919212
+      Recurso 8_15: 4323048706321370887
+      Recurso 8_16: -1592523149296312211
+      Recurso 8_17: 18757666629707870
+      Recurso 8_18: 2966148578954378017
+      Recurso 8_19: -703454636693818916
+      Recurso 8_2: -1646765989128318366
+      Recurso 8_20: -3267833379050520569
+      Recurso 8_21: -1051475971359291960
+      Recurso 8_22: 4247468757917499147
+      Recurso 8_3: 2255160965537699041
+      Recurso 8_4: -6591963138282050675
+      Recurso 8_5: -5362138107256314435
+      Recurso 8_6: 6660840292050392906
+      Recurso 8_7: -8437397911068392333
+      Recurso 8_8: 7033060967376297563
+      Recurso 8_9: 2867024934463706522
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

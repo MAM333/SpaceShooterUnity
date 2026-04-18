@@ -61,12 +61,36 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9100000, guid: 39591ca9920658b41adc9a5582c5313e, type: 2}
     - target: {fileID: 8182804493065791758, guid: 197696e3de6051e409886d4c6bc34a2d, type: 3}
+      propertyPath: health
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8182804493065791758, guid: 197696e3de6051e409886d4c6bc34a2d, type: 3}
+      propertyPath: speedX
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8182804493065791758, guid: 197696e3de6051e409886d4c6bc34a2d, type: 3}
+      propertyPath: speedY
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8182804493065791758, guid: 197696e3de6051e409886d4c6bc34a2d, type: 3}
       propertyPath: enemyBullet
       value: 
       objectReference: {fileID: 6121344163492050472, guid: a11ee2f334315234bb33676631cd9280, type: 3}
     - target: {fileID: 8182804493065791758, guid: 197696e3de6051e409886d4c6bc34a2d, type: 3}
       propertyPath: valueOfPoints
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8182804493065791758, guid: 197696e3de6051e409886d4c6bc34a2d, type: 3}
+      propertyPath: 'bulletRates.Array.data[0]'
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8182804493065791758, guid: 197696e3de6051e409886d4c6bc34a2d, type: 3}
+      propertyPath: 'bulletRates.Array.data[1]'
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 8182804493065791758, guid: 197696e3de6051e409886d4c6bc34a2d, type: 3}
+      propertyPath: 'bulletRates.Array.data[2]'
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

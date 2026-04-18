@@ -47,7 +47,6 @@ public class EnemiesManager : MonoBehaviour
     public List<Wave> waves = new List<Wave>();
 
     private Wave actWave;
-    public float actTimeBetweenWaves;
     private bool changedWave = false;
 
     // Boss
@@ -79,6 +78,8 @@ public class EnemiesManager : MonoBehaviour
         float pointsEnem3 = Mejoras.instance.CheckUpgrade("earnPointsOfEnemy3");
         pointsEnemy3 = (int)pointsEnem3;
 
+        ProgressBarUI.instance.ActualizeBar(deadEnemies, numEnemiesUntilBoss[actBoss]);
+
         StartCoroutine(SpawnerBehaviour());
     }
 
@@ -106,7 +107,25 @@ public class EnemiesManager : MonoBehaviour
                 {
                     yield return new WaitForSeconds(actWave.waveInfo[actI].timeToSpawn);
                 
-                    SpawnLittleEnemy(enemy1, pointsEnemy1);
+                    switch (actBoss)
+                    {
+                        case 0:
+                            SpawnLittleEnemy(enemy1, pointsEnemy1);
+                            break;
+
+                        case 1:
+                            int randomNum = UnityEngine.Random.Range(0, 4);
+                            if (randomNum == 3) SpawnLittleEnemy(enemy1, pointsEnemy1);
+                            else SpawnLittleEnemy(enemy2, pointsEnemy2);
+                            break;
+
+                        case 2:
+                            int randomNum2 = UnityEngine.Random.Range(0, 4);
+                            if (randomNum2 == 3) SpawnLittleEnemy(enemy1, pointsEnemy1);
+                            else if (randomNum2 == 2) SpawnLittleEnemy(enemy2, pointsEnemy2);
+                            else SpawnLittleEnemy(enemy3, pointsEnemy3);
+                            break;
+                    }
 
                     ++actI;
                 }
@@ -171,6 +190,7 @@ public class EnemiesManager : MonoBehaviour
             enemyBase.SetCreatedBySpawner();
 
             MusicManager.instance.PlayBossTheme();
+            DangerPanelUI.instance.ShowPanel();
         }
         else if (!nextIsBossFight)
         {
@@ -186,19 +206,31 @@ public class EnemiesManager : MonoBehaviour
         if (inBossFight)
         {
             MusicManager.instance.PlayGameTheme();
+            
             actBoss++;
             inBossFight = false;
+
+            ProgressBarUI.instance.ActualizeBar(deadEnemies, numEnemiesUntilBoss[actBoss]);
+            
             ChangeWave(false);
         }
         else
         {
             deadEnemies++;
 
+            bool lastEnemy = (transform.childCount == 2 && actWave.waveInfo == null);
+
+            // Actualizar progress bar
+            int num = deadEnemies;
+            if (deadEnemies >= numEnemiesUntilBoss[actBoss] && !lastEnemy) num = numEnemiesUntilBoss[actBoss] - 1;
+            ProgressBarUI.instance.ActualizeBar(num, numEnemiesUntilBoss[actBoss]);
+
+            // Spawnear al jefe o a la proxima oleada
             if (nextIsBossFight)
             {
-                if (transform.childCount == 2 && actWave.waveInfo == null) ChangeWave(true);
+                if (lastEnemy) ChangeWave(true);
             }
-            else if (transform.childCount == 2 && actWave.waveInfo == null)
+            else if (lastEnemy)
             {
                 ChangeWave(false);
             }

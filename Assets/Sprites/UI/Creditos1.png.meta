@@ -1,0 +1,1027 @@
+fileFormatVersion: 2
+guid: 08749b4c9c66dc44ebc7c11f67eed18f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3343678060461155066
+    second: Creditos1_0
+  - first:
+      213: 7841660275057031782
+    second: Creditos1_1
+  - first:
+      213: 1047108376725113374
+    second: Creditos1_2
+  - first:
+      213: -3601660402469321733
+    second: Creditos1_3
+  - first:
+      213: 5374068575694802255
+    second: Creditos1_4
+  - first:
+      213: 7507683875389517125
+    second: Creditos1_5
+  - first:
+      213: -3577890364069451122
+    second: Creditos1_6
+  - first:
+      213: 8778584430355843220
+    second: Creditos1_7
+  - first:
+      213: -6839971643055078469
+    second: Creditos1_8
+  - first:
+      213: 7377459417196506647
+    second: Creditos1_9
+  - first:
+      213: -3751507539745655164
+    second: Creditos1_10
+  - first:
+      213: -267234316720998780
+    second: Creditos1_11
+  - first:
+      213: 6715444821731819419
+    second: Creditos1_12
+  - first:
+      213: -2383819833029693497
+    second: Creditos1_13
+  - first:
+      213: -877446310343039877
+    second: Creditos1_14
+  - first:
+      213: 5339519703896819654
+    second: Creditos1_15
+  - first:
+      213: -3297202436962959881
+    second: Creditos1_16
+  - first:
+      213: 1339052040586328082
+    second: Creditos1_17
+  - first:
+      213: -5218960536921734700
+    second: Creditos1_18
+  - first:
+      213: 7641478229177335216
+    second: Creditos1_19
+  - first:
+      213: 2705788257693965825
+    second: Creditos1_20
+  - first:
+      213: -6965126296373943490
+    second: Creditos1_21
+  - first:
+      213: -5620418594249302225
+    second: Creditos1_22
+  - first:
+      213: 1186046696509239980
+    second: Creditos1_23
+  - first:
+      213: -8009690562188863542
+    second: Creditos1_24
+  - first:
+      213: -896871106922331883
+    second: Creditos1_25
+  - first:
+      213: 2071536790222699461
+    second: Creditos1_26
+  - first:
+      213: 1563586486727027161
+    second: Creditos1_27
+  - first:
+      213: -1838516294651849753
+    second: Creditos1_28
+  - first:
+      213: 2691404468885410871
+    second: Creditos1_29
+  - first:
+      213: -7019551862648951391
+    second: Creditos1_30
+  - first:
+      213: 4554937217969865185
+    second: Creditos1_31
+  - first:
+      213: 8743185408824124380
+    second: Creditos1_32
+  - first:
+      213: 5926525171059636814
+    second: Creditos1_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 140
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Creditos1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60d12f2058ed891d0800000000000000
+      internalID: -3343678060461155066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creditos1_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 38
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66af018297c23dc60800000000000000
+      internalID: 7841660275057031782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creditos1_2
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1a49045583188e00800000000000000
+      internalID: 1047108376725113374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creditos1_3
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 16
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf3c93542f4540ec0800000000000000
+      internalID: -3601660402469321733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creditos1_4
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 15
+        width: 17
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4dc0e485e6849a40800000000000000
+      internalID: 5374068575694802255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creditos1_5
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 16
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54d258e05b6a03860800000000000000
+      internalID: 7507683875389517125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creditos1_6
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 15
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8ae85c9ba7c85ec0800000000000000
+      internalID: -3577890364069451122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creditos1_7
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 38
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 498822a470cc3d970800000000000000
+      internalID: 8778584430355843220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creditos1_8
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 17
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb305f5c70a8311a0800000000000000
+      internalID: -6839971643055078469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creditos1_9
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71eabd2a040026660800000000000000
+      internalID: 7377459417196506647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creditos1_10
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 16
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 486b249d4c7ffebc0800000000000000
+      internalID: -3751507539745655164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creditos1_11
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 16
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 486fc080ec79a4cf0800000000000000
+      internalID: -267234316720998780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creditos1_12
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 17
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9fbf044c7d023d50800000000000000
+      internalID: 6715444821731819419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creditos1_13
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 16
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cfebbbed78faeed0800000000000000
+      internalID: -2383819833029693497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creditos1_14
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 16
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b74a68aca3fa2d3f0800000000000000
+      internalID: -877446310343039877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creditos1_15
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 16
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c708f571e8c91a40800000000000000
+      internalID: 5339519703896819654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creditos1_16
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 16
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fd35485adbfd32d0800000000000000
+      internalID: -3297202436962959881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creditos1_17
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 17
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 218f8ee7cb4459210800000000000000
+      internalID: 1339052040586328082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creditos1_18
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 16
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d18ffbfa078297b0800000000000000
+      internalID: -5218960536921734700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creditos1_19
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 16
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bdfef096fbfb0a60800000000000000
+      internalID: 7641478229177335216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creditos1_20
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 16
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10e9541a514ec8520800000000000000
+      internalID: 2705788257693965825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creditos1_21
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 16
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3326e84986e65f90800000000000000
+      internalID: -6965126296373943490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creditos1_22
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 16
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2f15c811134002b0800000000000000
+      internalID: -5620418594249302225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creditos1_23
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 6
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca27570cf2fa57010800000000000000
+      internalID: 1186046696509239980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creditos1_24
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 16
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac71fefeedcd7d090800000000000000
+      internalID: -8009690562188863542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creditos1_25
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 6
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5114596ea7cad83f0800000000000000
+      internalID: -896871106922331883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creditos1_26
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 17
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cb70683cb39fbc10800000000000000
+      internalID: 2071536790222699461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creditos1_27
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 5
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d927fc10a9f2b510800000000000000
+      internalID: 1563586486727027161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creditos1_28
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 16
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e3528fbb274c76e0800000000000000
+      internalID: -1838516294651849753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creditos1_29
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 16
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73450d2da1ac95520800000000000000
+      internalID: 2691404468885410871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creditos1_30
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 30
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ada068a5ca859e90800000000000000
+      internalID: -7019551862648951391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creditos1_31
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 13
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e1cc434443663f30800000000000000
+      internalID: 4554937217969865185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creditos1_32
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 13
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd327525ec8065970800000000000000
+      internalID: 8743185408824124380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creditos1_33
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 17
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4abb653e3f3f3250800000000000000
+      internalID: 5926525171059636814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Creditos1_0: -3343678060461155066
+      Creditos1_1: 7841660275057031782
+      Creditos1_10: -3751507539745655164
+      Creditos1_11: -267234316720998780
+      Creditos1_12: 6715444821731819419
+      Creditos1_13: -2383819833029693497
+      Creditos1_14: -877446310343039877
+      Creditos1_15: 5339519703896819654
+      Creditos1_16: -3297202436962959881
+      Creditos1_17: 1339052040586328082
+      Creditos1_18: -5218960536921734700
+      Creditos1_19: 7641478229177335216
+      Creditos1_2: 1047108376725113374
+      Creditos1_20: 2705788257693965825
+      Creditos1_21: -6965126296373943490
+      Creditos1_22: -5620418594249302225
+      Creditos1_23: 1186046696509239980
+      Creditos1_24: -8009690562188863542
+      Creditos1_25: -896871106922331883
+      Creditos1_26: 2071536790222699461
+      Creditos1_27: 1563586486727027161
+      Creditos1_28: -1838516294651849753
+      Creditos1_29: 2691404468885410871
+      Creditos1_3: -3601660402469321733
+      Creditos1_30: -7019551862648951391
+      Creditos1_31: 4554937217969865185
+      Creditos1_32: 8743185408824124380
+      Creditos1_33: 5926525171059636814
+      Creditos1_4: 5374068575694802255
+      Creditos1_5: 7507683875389517125
+      Creditos1_6: -3577890364069451122
+      Creditos1_7: 8778584430355843220
+      Creditos1_8: -6839971643055078469
+      Creditos1_9: 7377459417196506647
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -27,6 +27,6 @@ public class PowerUpsManager : MonoBehaviour
             default: powerUp = bulletPowerUp; break;
         }
         
-        Instantiate(bulletPowerUp, position, Quaternion.identity);
+        Instantiate(powerUp, position, Quaternion.identity);
     }
 }

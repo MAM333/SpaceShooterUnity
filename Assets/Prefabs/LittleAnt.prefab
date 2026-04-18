@@ -216,6 +216,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyLittleAnt
   health: 6
   timeBeingWhite: 0.1
+  valueOfPoints: 1
+  ballPoint: {fileID: 6930669838694683785, guid: f9730fd9f352cb441af8eccae72a435d, type: 3}
   speedX: 1
   speedY: 2
   enemyBullet: {fileID: 2361278478959053774, guid: 8d14c478c5be7824dbee86478b1bee41, type: 3}

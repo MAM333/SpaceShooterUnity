@@ -6,6 +6,7 @@ public abstract class EnemyBase : MonoBehaviour
     public int health = 10;
     public float timeBeingWhite = 0.1f;
     public int valueOfPoints = 1;
+    public GameObject ballPoint;
     
     private float timeWhiteAct = 0;
     private SpriteRenderer spr;
@@ -98,7 +99,14 @@ public abstract class EnemyBase : MonoBehaviour
 
         if (byPlayer)
         {
-            Mejoras.instance.AddPoints(valueOfPoints); // En verdad creare un punto en el aire que vaya hacia el player y ahi le dara los puntos
+            //Mejoras.instance.AddPoints(valueOfPoints);
+            if (createdBySpawner)
+            {
+                GameObject ball = Instantiate(ballPoint);
+                ball.transform.position = transform.position;
+                BallPoints ballScript = ball.GetComponent<BallPoints>();
+                ballScript.SetPoints(valueOfPoints);
+            }
 
             if (powerUps)
             {
@@ -110,7 +118,10 @@ public abstract class EnemyBase : MonoBehaviour
             }
         }
 
-        if (createdBySpawner) EnemiesManager.instance.EnemyDied();
+        if (createdBySpawner) 
+        { 
+            EnemiesManager.instance.EnemyDied(); 
+        }
 
         Destroy(gameObject);
     }

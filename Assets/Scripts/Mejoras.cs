@@ -37,6 +37,8 @@ public class Mejoras : MonoBehaviour
     public List<UpgradeObject> upgradesInfo;
     public Upgrades initUpgrades;
 
+    public bool mainMenuScript = false;
+
     private int points = 3;
 
     private void Awake()
@@ -52,7 +54,7 @@ public class Mejoras : MonoBehaviour
 
     private void Start()
     {
-        PointsUI.instance.ChangePoints(points);
+        if (!mainMenuScript) PointsUI.instance.ChangePoints(points);
     }
 
     public int GetCostNextUpgrade(UpgradeObject upgrade)

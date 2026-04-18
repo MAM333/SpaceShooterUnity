@@ -8,9 +8,45 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2327422739304426082, guid: c8e471f5c9268074da6097b015e13a65, type: 3}
+      propertyPath: damage
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2415132272067283519, guid: c8e471f5c9268074da6097b015e13a65, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 05f1318f1e1cc6e4298efd6075df7627, type: 2}
+    - target: {fileID: 3831625269107172406, guid: c8e471f5c9268074da6097b015e13a65, type: 3}
+      propertyPath: speed
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3831625269107172406, guid: c8e471f5c9268074da6097b015e13a65, type: 3}
+      propertyPath: health
+      value: 1500
+      objectReference: {fileID: 0}
+    - target: {fileID: 3831625269107172406, guid: c8e471f5c9268074da6097b015e13a65, type: 3}
+      propertyPath: littleAnt
+      value: 
+      objectReference: {fileID: 5075461450071221286, guid: a204c3e0195e70f41a54df62a1401374, type: 3}
+    - target: {fileID: 3831625269107172406, guid: c8e471f5c9268074da6097b015e13a65, type: 3}
+      propertyPath: enemyBullet
+      value: 
+      objectReference: {fileID: 6121344163492050472, guid: a11ee2f334315234bb33676631cd9280, type: 3}
+    - target: {fileID: 3831625269107172406, guid: c8e471f5c9268074da6097b015e13a65, type: 3}
+      propertyPath: valueOfPoints
+      value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 3831625269107172406, guid: c8e471f5c9268074da6097b015e13a65, type: 3}
+      propertyPath: timeBetweenAttacks
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3831625269107172406, guid: c8e471f5c9268074da6097b015e13a65, type: 3}
+      propertyPath: timeBetweenBullets
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 3932482427075417332, guid: c8e471f5c9268074da6097b015e13a65, type: 3}
       propertyPath: m_Name
-      value: AngelAnt_0
+      value: AngelAnt2
       objectReference: {fileID: 0}
     - target: {fileID: 6632104890754516829, guid: c8e471f5c9268074da6097b015e13a65, type: 3}
       propertyPath: m_LocalPosition.x
@@ -52,6 +88,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6783790191301804359, guid: c8e471f5c9268074da6097b015e13a65, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -7760044773475197839, guid: e2403fd2fca841e44a35ca2bf4f6d354, type: 3}
+    - target: {fileID: 6908819700054269333, guid: c8e471f5c9268074da6097b015e13a65, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 4510866108195890315, guid: ffbdb80b7d3de7e4e90b13b9a50159a8, type: 3}
+    - target: {fileID: 8235641335035515841, guid: c8e471f5c9268074da6097b015e13a65, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 7fe99f4fceabb474fbc5dadabc895295, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

@@ -4,7 +4,9 @@ public class MusicManager : MonoBehaviour
 {
     public static MusicManager instance;
 
-    public AudioSource gameTheme, bossTheme;
+    public AudioClip mainMenuTheme, gameTheme, bossTheme, winTheme;
+
+    private AudioSource audioSource;
 
     private void Awake()
     {
@@ -12,26 +14,42 @@ public class MusicManager : MonoBehaviour
         else Destroy(gameObject);
 
         DontDestroyOnLoad(gameObject);
+        audioSource = GetComponent<AudioSource>();
     }
 
     private void Start()
     {
-        // A veces hay errores al reproducir la cancion directamente
-        bossTheme.Play();
-        bossTheme.Stop();
+        // El juego da errores al reproducir la musica la primera vez asi que las reproduzco y las paro antes de empezar
+        PlayGameTheme();
+        PlayBossTheme();
 
-        gameTheme.Play();
+        PlayMainMenuTheme();
+    }
+
+    private void PlayTrack(AudioClip track)
+    {
+        if (audioSource.isPlaying) audioSource.Stop();
+        audioSource.clip = track;
+        audioSource.Play();
+    }
+
+    public void PlayMainMenuTheme()
+    {
+        PlayTrack(mainMenuTheme);
     }
 
     public void PlayGameTheme()
     {
-        if (bossTheme.isPlaying) bossTheme.Stop();
-        if (!gameTheme.isPlaying) gameTheme.Play();
+        PlayTrack(gameTheme);
     }
 
     public void PlayBossTheme()
     {
-        if (gameTheme.isPlaying) gameTheme.Stop();
-        if (!bossTheme.isPlaying) bossTheme.Play();
+        PlayTrack(bossTheme);
+    }
+
+    public void PlayWinTheme()
+    {
+        PlayTrack(winTheme);
     }
 }

@@ -1,0 +1,830 @@
+fileFormatVersion: 2
+guid: 0ba7c93575db4644cbc6a09f8887d08a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7137709317767104135
+    second: LaserEnemy3_0
+  - first:
+      213: 4490238244747515393
+    second: LaserEnemy3_1
+  - first:
+      213: -6737597788289220861
+    second: LaserEnemy3_2
+  - first:
+      213: -4514023754252078389
+    second: LaserEnemy3_3
+  - first:
+      213: -7213251708509121927
+    second: LaserEnemy3_4
+  - first:
+      213: 5996037227161669771
+    second: LaserEnemy3_5
+  - first:
+      213: 9205017894723537754
+    second: LaserEnemy3_6
+  - first:
+      213: 698602320782497929
+    second: LaserEnemy3_7
+  - first:
+      213: 978940835954684821
+    second: LaserEnemy3_8
+  - first:
+      213: -5384653679467801745
+    second: LaserEnemy3_9
+  - first:
+      213: -4167617345932794128
+    second: LaserEnemy3_10
+  - first:
+      213: 7947218460577149762
+    second: LaserEnemy3_11
+  - first:
+      213: -2287508520993297440
+    second: LaserEnemy3_12
+  - first:
+      213: 3024238106182280789
+    second: LaserEnemy3_13
+  - first:
+      213: 5203170446561933644
+    second: LaserEnemy3_14
+  - first:
+      213: -3661051406431542607
+    second: LaserEnemy3_15
+  - first:
+      213: 1094624911448198090
+    second: LaserEnemy3_16
+  - first:
+      213: -3379325922304876371
+    second: LaserEnemy3_17
+  - first:
+      213: 834974072659456756
+    second: LaserEnemy3_18
+  - first:
+      213: 3642701638773791886
+    second: LaserEnemy3_19
+  - first:
+      213: -6564767489519810951
+    second: LaserEnemy3_20
+  - first:
+      213: -2281833466511830825
+    second: LaserEnemy3_21
+  - first:
+      213: 2447206635817926512
+    second: LaserEnemy3_22
+  - first:
+      213: -3029682562004953612
+    second: LaserEnemy3_23
+  - first:
+      213: 6706765971370320177
+    second: LaserEnemy3_24
+  - first:
+      213: -3268707430622848016
+    second: LaserEnemy3_25
+  - first:
+      213: -8939800335402972159
+    second: LaserEnemy3_26
+  - first:
+      213: -6147185851839359629
+    second: LaserEnemy3_27
+  - first:
+      213: -6407858083100258578
+    second: LaserEnemy3_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 26
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LaserEnemy3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 700
+        width: 422
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 979fe745133c1fc90800000000000000
+      internalID: -7137709317767104135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserEnemy3_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 672
+        width: 422
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1069c0fa4e7805e30800000000000000
+      internalID: 4490238244747515393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserEnemy3_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 644
+        width: 422
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30f3095428e3f72a0800000000000000
+      internalID: -6737597788289220861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserEnemy3_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 616
+        width: 422
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc23124df47fa51c0800000000000000
+      internalID: -4514023754252078389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserEnemy3_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 588
+        width: 422
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97295ded9c165eb90800000000000000
+      internalID: -7213251708509121927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserEnemy3_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 560
+        width: 422
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b805df8f614363350800000000000000
+      internalID: 5996037227161669771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserEnemy3_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 532
+        width: 422
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5b4c16410bcebf70800000000000000
+      internalID: 9205017894723537754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserEnemy3_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 504
+        width: 422
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98811810c1fe1b900800000000000000
+      internalID: 698602320782497929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserEnemy3_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 476
+        width: 422
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 593f33fe085e59d00800000000000000
+      internalID: 978940835954684821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserEnemy3_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 422
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6352d4f10ed545b0800000000000000
+      internalID: -5384653679467801745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserEnemy3_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 420
+        width: 422
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f66be7da16a926c0800000000000000
+      internalID: -4167617345932794128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserEnemy3_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 392
+        width: 422
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 243b02f65113a4e60800000000000000
+      internalID: 7947218460577149762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserEnemy3_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 364
+        width: 422
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ebe381be132140e0800000000000000
+      internalID: -2287508520993297440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserEnemy3_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 422
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f660f3c9594c0c54986ff4ea214921e0
+      internalID: 596102617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserEnemy3_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 308
+        width: 422
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba88334110df654eb65da1e18d2e311
+      internalID: -152420803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserEnemy3_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 280
+        width: 422
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9947ecb0815b27f44a9dafca147c8c64
+      internalID: -1914762440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserEnemy3_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 252
+        width: 422
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8051aecae9e79a046808dccaf93be7ae
+      internalID: -1891760377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserEnemy3_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 422
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f4c0b89ae2ed14ea4234b1d750d821
+      internalID: -1026887915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserEnemy3_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 196
+        width: 422
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b312a048fe601bd49a48f5bc6715ca62
+      internalID: -780923309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserEnemy3_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 168
+        width: 422
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78bca2cc3b1c03c40acab5fe38aa6bbf
+      internalID: -363916341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserEnemy3_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 140
+        width: 422
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab05490afd17a7941a1e140b203aeae8
+      internalID: 1750572234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserEnemy3_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 422
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987d074597547b24ba6b258416fad439
+      internalID: 500838442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserEnemy3_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 84
+        width: 422
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 007c90e363bae66449cacdbfce48576c
+      internalID: -2082152242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserEnemy3_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 56
+        width: 422
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac1fd0518ac41c34d89dfdb4a80163e4
+      internalID: -1596555863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserEnemy3_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 28
+        width: 422
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb7ff136b68601c4faa17929f6625c69
+      internalID: -1981948437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserEnemy3_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 422
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a864997af9b83340b5ad8acec77e204
+      internalID: 17497041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d71a51597e75d544488be3168948f4ab
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":422.0,"y":28.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      LaserEnemy3_0: -7137709317767104135
+      LaserEnemy3_1: 4490238244747515393
+      LaserEnemy3_10: -4167617345932794128
+      LaserEnemy3_11: 7947218460577149762
+      LaserEnemy3_12: -2287508520993297440
+      LaserEnemy3_13: 596102617
+      LaserEnemy3_14: -152420803
+      LaserEnemy3_15: -1914762440
+      LaserEnemy3_16: -1891760377
+      LaserEnemy3_17: -1026887915
+      LaserEnemy3_18: -780923309
+      LaserEnemy3_19: -363916341
+      LaserEnemy3_2: -6737597788289220861
+      LaserEnemy3_20: 1750572234
+      LaserEnemy3_21: 500838442
+      LaserEnemy3_22: -2082152242
+      LaserEnemy3_23: -1596555863
+      LaserEnemy3_24: -1981948437
+      LaserEnemy3_25: 17497041
+      LaserEnemy3_3: -4514023754252078389
+      LaserEnemy3_4: -7213251708509121927
+      LaserEnemy3_5: 5996037227161669771
+      LaserEnemy3_6: 9205017894723537754
+      LaserEnemy3_7: 698602320782497929
+      LaserEnemy3_8: 978940835954684821
+      LaserEnemy3_9: -5384653679467801745
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
