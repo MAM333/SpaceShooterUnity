@@ -4,7 +4,8 @@ public class EndManager : MonoBehaviour
 {
     public static EndManager instance;
 
-    public bool ended = false;
+    private bool ended = false;
+    private bool gameCompleted = false;
 
     private void Awake()
     {
@@ -18,7 +19,9 @@ public class EndManager : MonoBehaviour
             if (EndUI.instance.Ended())
             {
                 Mejoras.instance.SaveToBd();
-                SceneManagement.instance.LoadImprovements(); 
+
+                if (!gameCompleted) SceneManagement.instance.LoadImprovements(); 
+                else SceneManagement.instance.GoToMainMenu();
             }
         }
     }
@@ -32,5 +35,13 @@ public class EndManager : MonoBehaviour
         MusicManager.instance.PlayGameTheme();
         EndUI.instance.End();
         ended = true;
+    }
+
+    public void GameCompleted()
+    {
+        MusicManager.instance.PlayWinTheme();
+        EndUI.instance.End();
+        ended = true;
+        gameCompleted = true;
     }
 }

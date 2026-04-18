@@ -120,7 +120,7 @@ public abstract class EnemyBase : MonoBehaviour
 
         if (createdBySpawner) 
         { 
-            EnemiesManager.instance.EnemyDied(); 
+            EnemiesManager.instance.EnemyDied(transform.position); 
         }
 
         Destroy(gameObject);

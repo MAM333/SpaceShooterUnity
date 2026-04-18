@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7250742759115739958}
   - component: {fileID: 331736103383562444}
+  - component: {fileID: 2246721107007381862}
   m_Layer: 0
   m_Name: Mejoras
   m_TagString: Untagged
@@ -98,3 +99,23 @@ MonoBehaviour:
     swordWeapon: 0
     missileWeapon: 0
     vampirism: 0
+  mainMenuScript: 0
+--- !u!114 &2246721107007381862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2726491829759106723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 838848a825964f542baeefd1abe3bee3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrophySpawner
+  trophy: {fileID: 0}
+  trophyS: {fileID: 1687862380882984177, guid: 9cefff3752e189b4d9ea1160809e5ebb, type: 3}
+  trophyA: {fileID: 1093565035, guid: 9cefff3752e189b4d9ea1160809e5ebb, type: 3}
+  trophyB: {fileID: 890421537, guid: 9cefff3752e189b4d9ea1160809e5ebb, type: 3}
+  trophyC: {fileID: 1049020011, guid: 9cefff3752e189b4d9ea1160809e5ebb, type: 3}
+  trophyD: {fileID: -767266629, guid: 9cefff3752e189b4d9ea1160809e5ebb, type: 3}
+  trophyE: {fileID: -310890291, guid: 9cefff3752e189b4d9ea1160809e5ebb, type: 3}

@@ -34,12 +34,6 @@ public class EnergyBarUI : MonoBehaviour
         }
     }
 
-    public void ShowBarToThePlayer()
-    {
-        showingBar = true;
-        upScale = true;
-    }
-
     public void SetEnergyBar(float energy)
     {
         if (energy > 87) ActivateBar(100);
@@ -51,22 +45,6 @@ public class EnergyBarUI : MonoBehaviour
         else if (energy > 12) ActivateBar(25);
         else if (energy > 0) ActivateBar(12);
         else ActivateBar(0);
-    }
-
-    private void ShowBarBehaviour()
-    {
-        if (upScale) 
-        { 
-            Vector3 res = Vector3.MoveTowards(energyBarTransform.localScale, maxScale, scaleSpeed * Time.deltaTime);
-            energyBarTransform.localScale = res;
-            if (energyBarTransform.localScale == maxScale) upScale = false;
-        }
-        else 
-        {
-            Vector3 res = Vector3.MoveTowards(energyBarTransform.localScale, minScale, scaleSpeed * Time.deltaTime);
-            energyBarTransform.localScale = res;
-            if (energyBarTransform.localScale == minScale) upScale = true;
-        }
     }
 
     private void ActivateBar(int bar)
@@ -87,5 +65,27 @@ public class EnergyBarUI : MonoBehaviour
         }
 
         energyBarImage.sprite = energyBar;
+    }
+
+    public void ShowBarToThePlayer()
+    {
+        showingBar = true;
+        upScale = true;
+    }
+
+    private void ShowBarBehaviour()
+    {
+        if (upScale)
+        {
+            Vector3 res = Vector3.MoveTowards(energyBarTransform.localScale, maxScale, scaleSpeed * Time.deltaTime);
+            energyBarTransform.localScale = res;
+            if (energyBarTransform.localScale == maxScale) upScale = false;
+        }
+        else
+        {
+            Vector3 res = Vector3.MoveTowards(energyBarTransform.localScale, minScale, scaleSpeed * Time.deltaTime);
+            energyBarTransform.localScale = res;
+            if (energyBarTransform.localScale == minScale) upScale = true;
+        }
     }
 }

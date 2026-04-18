@@ -58,6 +58,7 @@ public class NaveLife : MonoBehaviour
     public void Death()
     {
         boxC.enabled = false;
+        NaveDeath.instance.Die();
     }
 
     IEnumerator InmunityTime()

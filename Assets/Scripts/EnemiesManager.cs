@@ -83,13 +83,6 @@ public class EnemiesManager : MonoBehaviour
         StartCoroutine(SpawnerBehaviour());
     }
 
-    private void Update()
-    {
-        if (inBossFight) return;
-
-        //SpawnerBehaviour();
-    }
-
     IEnumerator SpawnerBehaviour()
     {
         while (true)
@@ -201,7 +194,7 @@ public class EnemiesManager : MonoBehaviour
         }
     }
 
-    public void EnemyDied()
+    public void EnemyDied(Vector3 position)
     {
         if (inBossFight)
         {
@@ -210,9 +203,25 @@ public class EnemiesManager : MonoBehaviour
             actBoss++;
             inBossFight = false;
 
-            ProgressBarUI.instance.ActualizeBar(deadEnemies, numEnemiesUntilBoss[actBoss]);
+            if (actBoss < 3)
+            {
+                ProgressBarUI.instance.ActualizeBar(deadEnemies, numEnemiesUntilBoss[actBoss]);
             
-            ChangeWave(false);
+                ChangeWave(false);
+            }
+            else
+            {
+                float numWaves = 30;
+                string letter = "s";
+                if (numWaves > 80) letter = "e";
+                else if (numWaves > 70) letter = "d";
+                else if (numWaves > 60) letter = "c";
+                else if (numWaves > 50) letter = "b";
+                else if (numWaves > 40) letter = "a";
+
+                TrophySpawner.instance.SpawnTrophy(letter, position);
+            }
+
         }
         else
         {

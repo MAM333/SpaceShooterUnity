@@ -21,7 +21,6 @@ public class NaveEnergy : MonoBehaviour
         float energyM = Mejoras.instance.CheckUpgrade("energy");
         energyMax = energyM;
 
-
         energyAct = energyMax;    
         controller = GetComponent<NaveController>();
     }
@@ -48,5 +47,6 @@ public class NaveEnergy : MonoBehaviour
     public void Death()
     {
         isDeath = true;
+        NaveDeath.instance.Die();
     }
 }
