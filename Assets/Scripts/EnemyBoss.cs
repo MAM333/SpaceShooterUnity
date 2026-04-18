@@ -22,6 +22,7 @@ public class EnemyBoss : EnemyBase
     private bool apearing = true;
 
     private int lastAttack = 0;
+    private bool twoInArrow = false;
     private bool isAttacking = false;
     private Vector3 nextMove;
     private CircleCollider2D circleC;
@@ -112,10 +113,12 @@ public class EnemyBoss : EnemyBase
                 switch (bonoloto)
                 {
                     case 0:
-                        StartCoroutine(Attack1());
+                        if (twoInArrow && lastAttack == 1) StartCoroutine(Attack2());
+                        else StartCoroutine(Attack1());
                         break;
                     case 1:
-                        StartCoroutine(Attack2());
+                        if (twoInArrow && lastAttack == 2) StartCoroutine(Attack1());
+                        else StartCoroutine(Attack2());
                         break;
                     case 2:
                         if (lastAttack == 3)
@@ -147,6 +150,11 @@ public class EnemyBoss : EnemyBase
     {
         isAttacking = true;
 
+        if (lastAttack == 1) twoInArrow = true;
+        else twoInArrow = false;
+
+        lastAttack = 1;
+
         SpawnAnt(true);
         SpawnAnt(false);
 
@@ -164,6 +172,11 @@ public class EnemyBoss : EnemyBase
     IEnumerator Attack2()
     {
         isAttacking = true;
+
+        if (lastAttack == 2) twoInArrow = true;
+        else twoInArrow = false;
+
+        lastAttack = 2;
 
         int numOfBullets = Random.Range(3, 6);
 

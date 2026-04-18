@@ -29,6 +29,7 @@ public class EndManager : MonoBehaviour
     {
         if (ended) return;
 
+        MusicManager.instance.PlayGameTheme();
         EndUI.instance.End();
         ended = true;
     }

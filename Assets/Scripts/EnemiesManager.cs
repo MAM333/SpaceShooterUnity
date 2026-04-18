@@ -47,8 +47,6 @@ public class EnemiesManager : MonoBehaviour
     public List<Wave> waves = new List<Wave>();
 
     private Wave actWave;
-    private int actI;
-    private float timer = 0;
     public float actTimeBetweenWaves;
     private bool changedWave = false;
 
@@ -101,14 +99,17 @@ public class EnemiesManager : MonoBehaviour
                 continue;
             }
 
-            int actI = 0;
-            while (actI < actWave.waveInfo.Count)
+            if (actWave.waveInfo != null)
             {
-                yield return new WaitForSeconds(actWave.waveInfo[actI].timeToSpawn);
+                int actI = 0;
+                while (actI < actWave.waveInfo.Count)
+                {
+                    yield return new WaitForSeconds(actWave.waveInfo[actI].timeToSpawn);
                 
-                SpawnLittleEnemy(enemy1, pointsEnemy1);
+                    SpawnLittleEnemy(enemy1, pointsEnemy1);
 
-                ++actI;
+                    ++actI;
+                }
             }
 
             changedWave = false;
@@ -122,50 +123,14 @@ public class EnemiesManager : MonoBehaviour
                 timerBtwWaves -= Time.deltaTime;
             }
 
-            if (changedWave) continue;
-
             timeBetweenWaves -= substractTimeBetweenWaves;
             if (timeBetweenWaves < minTimeBetweenWaves) timeBetweenWaves = minTimeBetweenWaves;
+
+            if (changedWave || inBossFight) continue;
 
             ChangeWave(false);
         }
     }
-
-    //private void SpawnerBehaviour()
-    //{
-    //    if (timer > 0)
-    //    {
-    //        timer -= Time.deltaTime;
-    //        if (timer < 0)
-    //        {
-    //            SpawnLittleEnemy(enemy1, pointsEnemy1);
-
-    //            actI++;
-    //            if (actI == actWave.waveInfo.Count)
-    //            {
-    //                timer = 0;
-    //                actWave = new Wave();
-
-    //                actTimeBetweenWaves = timeBetweenWaves;
-    //                timeBetweenWaves -= substractTimeBetweenWaves;
-    //                if (timeBetweenWaves < minTimeBetweenWaves) timeBetweenWaves = minTimeBetweenWaves;
-    //            }
-    //            else
-    //            {
-    //                timer = actWave.waveInfo[actI].timeToSpawn;
-    //            }
-    //        }
-    //    }
-    //    else
-    //    {
-    //        actTimeBetweenWaves -= Time.deltaTime;
-    //        if (actTimeBetweenWaves < 0)
-    //        {
-    //            actTimeBetweenWaves = 0;
-    //            ChangeWave(false);
-    //        }
-    //    }
-    //}
 
     private void SpawnLittleEnemy(GameObject littleAnt, int points)
     {
@@ -200,12 +165,16 @@ public class EnemiesManager : MonoBehaviour
 
             // Instanciar boss
             GameObject spawnedEnemy = Instantiate(boss);
-            spawnedEnemy.transform.position = new Vector3(spawnEnemies.position.x, 0, 0);
+            spawnedEnemy.transform.position = new Vector3(spawnEnemies.position.x + 5, 0, 0);
+            
+            EnemyBase enemyBase = spawnedEnemy.GetComponent<EnemyBase>();
+            enemyBase.SetCreatedBySpawner();
+
+            MusicManager.instance.PlayBossTheme();
         }
         else if (!nextIsBossFight)
         {
             actWave = waves[UnityEngine.Random.Range(0, waves.Count)];
-            actI = 0;
 
             if (deadEnemies + actWave.waveInfo.Count > numEnemiesUntilBoss[actBoss]) nextIsBossFight = true;
             changedWave = true;
@@ -216,9 +185,9 @@ public class EnemiesManager : MonoBehaviour
     {
         if (inBossFight)
         {
+            MusicManager.instance.PlayGameTheme();
             actBoss++;
             inBossFight = false;
-            actTimeBetweenWaves = 0;
             ChangeWave(false);
         }
         else
@@ -227,11 +196,10 @@ public class EnemiesManager : MonoBehaviour
 
             if (nextIsBossFight)
             {
-                if (transform.childCount == 2) ChangeWave(true);
+                if (transform.childCount == 2 && actWave.waveInfo == null) ChangeWave(true);
             }
             else if (transform.childCount == 2 && actWave.waveInfo == null)
             {
-                actTimeBetweenWaves = 0;
                 ChangeWave(false);
             }
         }

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1338404143244203158}
   - component: {fileID: 2327422739304426082}
   m_Layer: 0
-  m_Name: LaserEnemy_0
+  m_Name: Laser
   m_TagString: LaserEnemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -174,7 +174,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f3afb767385a5b4f9ba5c4da276e6ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LaserBoss
-  damage: 1
+  damage: 2
 --- !u!1 &3932482427075417332
 GameObject:
   m_ObjectHideFlags: 0
@@ -283,9 +283,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b2b5af0ad4477442bad9c14ba4a66d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyBoss
-  health: 400
+  health: 600
   timeBeingWhite: 0.1
-  valueOfPoints: 30
+  valueOfPoints: 250
   speedOnApearing: 1
   posToStartAttacking: {x: 6.5, y: 0, z: 0}
   timeBetweenAttacks: 2
