@@ -124,7 +124,8 @@ public class NaveController : MonoBehaviour
         if (!canMove) return;
 
         Vector2 input = move.action.ReadValue<Vector2>();
-        rb.linearVelocity = input.normalized * speedX;
+        rb.linearVelocityX = (input.x > 0 ? speedX : input.x < 0 ? -speedX : 0);
+        rb.linearVelocityY = (input.y > 0 ? speedX : input.y < 0 ? -speedX : 0);
     }
 
     private void Shoot()

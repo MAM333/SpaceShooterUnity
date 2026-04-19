@@ -6,10 +6,12 @@ public class EndManager : MonoBehaviour
 
     private bool ended = false;
     private bool gameCompleted = false;
+    private NaveEnergy naveEnergy;
 
     private void Awake()
     {
         instance = this;
+        naveEnergy = FindFirstObjectByType<NaveEnergy>();
     }
 
     private void Update()
@@ -32,6 +34,7 @@ public class EndManager : MonoBehaviour
     {
         if (ended) return;
 
+        naveEnergy.StopLossingEnergy(9999);
         MusicManager.instance.PlayGameTheme();
         EndUI.instance.End();
         ended = true;
@@ -39,6 +42,7 @@ public class EndManager : MonoBehaviour
 
     public void GameCompleted()
     {
+        naveEnergy.StopLossingEnergy(9999);
         MusicManager.instance.PlayWinTheme();
         EndUI.instance.End();
         ended = true;

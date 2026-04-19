@@ -18,7 +18,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3831625269107172406, guid: c8e471f5c9268074da6097b015e13a65, type: 3}
       propertyPath: health
-      value: 3000
+      value: 4500
       objectReference: {fileID: 0}
     - target: {fileID: 3831625269107172406, guid: c8e471f5c9268074da6097b015e13a65, type: 3}
       propertyPath: littleAnt

@@ -13,11 +13,16 @@ public class SceneManagement : MonoBehaviour
 
     public void GoToMainMenu()
     {
+        MusicManager.instance.PlayMainMenuTheme();
+
         SceneManager.LoadScene(0);
     }
 
     public void LoadGame()
     {
+        // +1 on embarcations
+        Mejoras.instance.SumAndSaveEmbarcations();
+
         SceneManager.LoadScene(1);
     }
     

@@ -5,9 +5,9 @@ public static class SaveSystem
 {
     static string path = Application.persistentDataPath + "/save.json";
 
-    public static void Save(int points, Upgrades upgrades)
+    public static void Save(int points, Upgrades upgrades, int numEmbarc, string trp)
     {
-        SaveData saveData = new SaveData { puntos = points, playerUpgrades = upgrades };
+        SaveData saveData = new SaveData { puntos = points, playerUpgrades = upgrades, numOfEmbarcations = numEmbarc, trophy = trp };
 
         string json = JsonUtility.ToJson(saveData, true);
         File.WriteAllText(path, json);

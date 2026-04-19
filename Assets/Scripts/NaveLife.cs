@@ -55,12 +55,6 @@ public class NaveLife : MonoBehaviour
         }
     }
 
-    public void Death()
-    {
-        boxC.enabled = false;
-        NaveDeath.instance.Die();
-    }
-
     IEnumerator InmunityTime()
     {
         canReceiveDamage = false;
@@ -76,5 +70,11 @@ public class NaveLife : MonoBehaviour
 
         spr.enabled = true;
         canReceiveDamage = true;
+    }
+
+    public void Death()
+    {
+        boxC.enabled = false;
+        NaveDeath.instance.Die();
     }
 }

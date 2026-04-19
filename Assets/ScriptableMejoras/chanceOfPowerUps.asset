@@ -15,7 +15,9 @@ MonoBehaviour:
   id: chanceOfPowerUps
   nombre: Probabilidad power ups
   description: Aumenta la probabilidad de que los power ups aparezcan
-  costs: 00000000c8000000
+  costs: 00000000d0070000
   values:
   - 5
   - 15
+  active: 1
+  notImplemented: 0

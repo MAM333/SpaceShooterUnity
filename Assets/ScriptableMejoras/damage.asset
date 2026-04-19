@@ -15,11 +15,13 @@ MonoBehaviour:
   id: damage
   nombre: "Da\xF1o"
   description: "Aumenta el da\xF1o de la nave"
-  costs: 000000001400000064000000f4010000
+  costs: 000000001400000064000000f401000020030000d0070000
   values:
   - 1
   - 2
   - 4
   - 6
+  - 8
+  - 12
   active: 1
   notImplemented: 0

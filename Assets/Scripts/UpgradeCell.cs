@@ -25,6 +25,12 @@ public class UpgradeCell : MonoBehaviour
         {
             // COLOR ROJO
             image.color = Color.red;
+            if (Mejoras.instance.GetCostNextUpgrade(upgradeObject) == -1)
+            {
+                Color newColor = Color.red;
+                newColor.a = 0.8f;
+                image.color = newColor;
+            }
         }
 
         ActualizeText();
@@ -56,6 +62,8 @@ public class UpgradeCell : MonoBehaviour
     private void ActualizeText()
     {
         int cost = Mejoras.instance.GetCostNextUpgrade(upgradeObject);
-        text.text = upgradeObject.nombre + " " + cost.ToString();
+        text.text = upgradeObject.nombre + " - ";
+        if (cost != -1) text.text += cost.ToString();
+        else text.text += "MAX";
     }
 }

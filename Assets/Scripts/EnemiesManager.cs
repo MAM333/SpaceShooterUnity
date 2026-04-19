@@ -55,6 +55,9 @@ public class EnemiesManager : MonoBehaviour
     private int deadEnemies = 0;
     private bool nextIsBossFight = false;
 
+    //Player
+    private NaveEnergy naveE;
+
     //Mejoras
     private int pointsEnemy1 = 1;
     private int pointsEnemy2 = 1;
@@ -69,6 +72,8 @@ public class EnemiesManager : MonoBehaviour
 
     private void Start()
     {
+        naveE = FindFirstObjectByType<NaveEnergy>();
+
         float pointsEnem1 = Mejoras.instance.CheckUpgrade("earnPointsOfEnemy1");
         pointsEnemy1 = (int)pointsEnem1;
 
@@ -182,10 +187,11 @@ public class EnemiesManager : MonoBehaviour
             EnemyBase enemyBase = spawnedEnemy.GetComponent<EnemyBase>();
             enemyBase.SetCreatedBySpawner();
 
+            naveE.StopLossingEnergy(7);
             MusicManager.instance.PlayBossTheme();
             DangerPanelUI.instance.ShowPanel();
         }
-        else if (!nextIsBossFight)
+        else if (!nextIsBossFight && actBoss < 3)
         {
             actWave = waves[UnityEngine.Random.Range(0, waves.Count)];
 
@@ -211,7 +217,7 @@ public class EnemiesManager : MonoBehaviour
             }
             else
             {
-                float numWaves = 30;
+                int numWaves = Mejoras.instance.GetNumEmbarcations();
                 string letter = "s";
                 if (numWaves > 80) letter = "e";
                 else if (numWaves > 70) letter = "d";

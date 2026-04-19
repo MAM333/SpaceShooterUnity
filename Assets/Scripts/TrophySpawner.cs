@@ -17,7 +17,7 @@ public class TrophySpawner : MonoBehaviour
         instance = this;
     }
 
-    public void SpawnTrophy(string letter, Vector3 position)
+    public Sprite GetSpriteByLetter(string letter)
     {
         Sprite trophySprite = null;
 
@@ -31,8 +31,18 @@ public class TrophySpawner : MonoBehaviour
             case "e": trophySprite = trophyE; break;
         }
 
+        return trophySprite;
+    }
+
+    public void SpawnTrophy(string letter, Vector3 position)
+    {
+        Sprite trophySprite = GetSpriteByLetter(letter);
+
         GameObject spawnedTrophy = Instantiate(trophy, position, Quaternion.identity);
         SpriteRenderer trophySpr = spawnedTrophy.GetComponent<SpriteRenderer>();
         trophySpr.sprite = trophySprite;
+
+        Trophy trp = spawnedTrophy.GetComponent<Trophy>();
+        trp.SetLetter(letter);
     }
 }

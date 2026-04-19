@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class NaveEnergy : MonoBehaviour
@@ -10,6 +11,7 @@ public class NaveEnergy : MonoBehaviour
     private NaveController controller;
     private NaveLife naveLife;
     private bool isDeath = false;
+    private bool energyStop = false;
 
     private void Awake()
     {
@@ -27,6 +29,8 @@ public class NaveEnergy : MonoBehaviour
 
     void Update()
     {
+        if (energyStop) return;
+
         if (!isDeath && energyAct > 0)
         {
             energyAct -= energyLossBySec * Time.deltaTime;
@@ -42,6 +46,25 @@ public class NaveEnergy : MonoBehaviour
         
             EnergyBarUI.instance.SetEnergyBar(energyAct / energyMax * 100);
         }
+    }
+
+    public void StopLossingEnergy(float time)
+    {
+        StartCoroutine(DoNotLoseEnergy(time));
+    }
+
+    IEnumerator DoNotLoseEnergy(float time)
+    {
+        energyStop = true;
+
+        float timer = time;
+        while (timer > 0)
+        {
+            yield return null;
+            timer -= Time.deltaTime;
+        }
+
+        energyStop = false;
     }
 
     public void Death()

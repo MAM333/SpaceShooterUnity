@@ -7,11 +7,17 @@ public class Trophy : MonoBehaviour
     public float speed = 3f, acceleration = 5f;
 
     private GameObject nave = null;
+    private string letter = "z";
 
     private void Awake()
     {
         NaveController naveC = FindFirstObjectByType<NaveController>();
         nave = naveC.gameObject;
+    }
+
+    public void SetLetter(string lett)
+    {
+        letter = lett;
     }
 
     private void Start()
@@ -43,6 +49,7 @@ public class Trophy : MonoBehaviour
     {
         if (collider.gameObject.CompareTag("Player"))
         {
+            Mejoras.instance.SetTrophy(letter);
             EndManager.instance.GameCompleted();
             Destroy(gameObject);
         }

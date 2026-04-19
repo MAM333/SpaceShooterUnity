@@ -13,11 +13,13 @@ MonoBehaviour:
   m_Name: earnPointsOfEnemy1
   m_EditorClassIdentifier: Assembly-CSharp::UpgradeObject
   id: earnPointsOfEnemy1
-  nombre: Puntos adicionales enemigo 1
+  nombre: Puntos adicionales
   description: Mejora la cantidad de puntos que te dan los enemigos azules
-  costs: 000000001400000064000000e8030000
+  costs: 00000000140000006400000040060000
   values:
   - 1
   - 3
   - 10
-  - 20
+  - 30
+  active: 1
+  notImplemented: 0

@@ -15,9 +15,9 @@ MonoBehaviour:
   id: earnPointsOfEnemy2
   nombre: Puntos adicionales enemigo 2
   description: Mejora la cantidad de puntos que te dan los enemigos verdes
-  costs: 00000000dc050000b80b000094110000
+  costs: 00000000c4090000
   values:
-  - 100
-  - 150
-  - 300
-  - 400
+  - 20
+  - 50
+  active: 0
+  notImplemented: 1

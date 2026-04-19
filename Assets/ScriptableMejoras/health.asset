@@ -15,9 +15,11 @@ MonoBehaviour:
   id: health
   nombre: Vida
   description: Aumenta la vida de la nave
-  costs: 0000000064000000f4010000d0070000
+  costs: 000000006400000020030000b80b0000
   values:
   - 2
   - 3
   - 4
   - 5
+  active: 1
+  notImplemented: 0

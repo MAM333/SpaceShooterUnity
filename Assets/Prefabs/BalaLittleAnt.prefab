@@ -94,7 +94,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8149306218841237619, guid: 97c04d80d06664c44be498638333f9b0, type: 3}
       propertyPath: speed
-      value: 7.5
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8149306218841237619, guid: 97c04d80d06664c44be498638333f9b0, type: 3}
       propertyPath: enemyBullet

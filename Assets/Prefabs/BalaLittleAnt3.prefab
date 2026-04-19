@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 0912a28e2a2b0894194ff029c4a1a17c, type: 3}
+    - target: {fileID: 4341658684361383165, guid: a11ee2f334315234bb33676631cd9280, type: 3}
+      propertyPath: speed
+      value: 7.8
+      objectReference: {fileID: 0}
     - target: {fileID: 6121344163492050472, guid: a11ee2f334315234bb33676631cd9280, type: 3}
       propertyPath: m_Name
       value: BalaLittleAnt3

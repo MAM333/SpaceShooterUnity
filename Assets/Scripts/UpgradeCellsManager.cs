@@ -21,7 +21,7 @@ public class UpgradeCellsManager : MonoBehaviour
 
     void Start()
     {
-        List<UpgradeObject> upgradesInfo = Mejoras.instance.GetUpgradesInfo();
+        List<UpgradeObject> upgradesInfo = GetOrderedUpgrades();
 
         actX = initX;
         actY = initY;
@@ -53,6 +53,46 @@ public class UpgradeCellsManager : MonoBehaviour
                 actX += offsetX;
             }
         }
+    }
+
+    private List<UpgradeObject> GetOrderedUpgrades()
+    {
+        List<UpgradeObject> upgradesInfo = Mejoras.instance.GetUpgradesInfo();
+
+        List<UpgradeObject> ret = new List<UpgradeObject>();
+        for (int i = 0; i < upgradesInfo.Count; ++i)
+        {
+            float costMinAct = 99999;
+            UpgradeObject upgAct = null;
+            foreach (UpgradeObject upg in upgradesInfo)
+            {
+                if (!upg.active || upg.notImplemented) continue;
+
+                if (upg.costs[1] < costMinAct)
+                {
+                    bool encountered = false;
+                    foreach (UpgradeObject retUpg in ret)
+                    {
+                        if (retUpg.id == upg.id)
+                        {
+                            encountered = true;
+                            break;
+                        }
+                    }
+
+                    if (!encountered)
+                    {
+                        costMinAct = upg.costs[1];
+                        upgAct = upg;
+                    }
+                }
+            }
+
+            if (upgAct != null) ret.Add(upgAct);
+            else break;
+        }
+
+        return ret;
     }
 
     public void ActualizeAllCells()

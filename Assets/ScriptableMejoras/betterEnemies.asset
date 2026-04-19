@@ -20,3 +20,6 @@ MonoBehaviour:
   - 1
   - 2
   - 3
+  order: 99
+  active: 0
+  notImplemented: 1

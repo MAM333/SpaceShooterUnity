@@ -19,5 +19,6 @@ MonoBehaviour:
   values:
   - 0
   - 1
+  order: 99
   active: 0
   notImplemented: 1

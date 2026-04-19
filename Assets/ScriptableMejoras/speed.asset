@@ -15,10 +15,13 @@ MonoBehaviour:
   id: speed
   nombre: Velocidad
   description: Aumenta la velocidad de la nave
-  costs: 000000000500000014000000f4010000e8030000
+  costs: 000000000500000014000000f4010000ac0d000010270000
   values:
   - 3
   - 4
   - 6
-  - 12
+  - 8
+  - 11
   - 18
+  active: 1
+  notImplemented: 0

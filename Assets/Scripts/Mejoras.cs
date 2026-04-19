@@ -37,7 +37,9 @@ public class Mejoras : MonoBehaviour
     public List<UpgradeObject> upgradesInfo;
     public Upgrades initUpgrades;
 
+    public int numOfEmbarcations = 0;
     public bool mainMenuScript = false;
+    public string trophy = "z";
 
     private int points = 3;
 
@@ -47,9 +49,16 @@ public class Mejoras : MonoBehaviour
         else Destroy(gameObject);
 
         // Coger las mejoras actuales de la BD y los puntos
+        GetBdInfo();
+    }
+
+    private void GetBdInfo()
+    {
         SaveData data = SaveSystem.Load();
         playerUpgrades = data.playerUpgrades;
         points = data.puntos;
+        numOfEmbarcations = data.numOfEmbarcations;
+        trophy = data.trophy;
     }
 
     private void Start()
@@ -114,7 +123,7 @@ public class Mejoras : MonoBehaviour
 
     public void SaveToBd()
     {
-        SaveSystem.Save(points, playerUpgrades);
+        SaveSystem.Save(points, playerUpgrades, numOfEmbarcations, trophy);
     }
 
     public void AddPoints(int pts)
@@ -124,6 +133,12 @@ public class Mejoras : MonoBehaviour
     }
 
     public List<UpgradeObject> GetUpgradesInfo() { return upgradesInfo; }
+
+    public void SumAndSaveEmbarcations()
+    {
+        numOfEmbarcations++;
+        SaveToBd();
+    }
 
     private ref int GetRefUpgrade(string id)
     {
@@ -161,9 +176,25 @@ public class Mejoras : MonoBehaviour
         return GetRefUpgrade(id);
     }
 
+    public int GetNumEmbarcations()
+    {
+        return numOfEmbarcations;
+    }
+
+    public void SetTrophy(string letter)
+    {
+        if (trophy != "s" && string.Compare(letter, trophy) < 0 || letter == "s")
+        {
+            trophy = letter;
+            SaveToBd();
+        }
+    }
+
     public void RestartAll()
     {
-        SaveSystem.Save(0, initUpgrades);
-        PointsUI.instance.ChangePoints(0);
+        SaveSystem.Save(0, initUpgrades, 0, trophy);
+        GetBdInfo();
+
+        if (PointsUI.instance != null) PointsUI.instance.ChangePoints(0);
     }
 }

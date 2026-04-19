@@ -18,5 +18,6 @@ MonoBehaviour:
   costs: 00000000
   values:
   - 0
+  order: 99
   active: 1
   notImplemented: 1

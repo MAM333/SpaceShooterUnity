@@ -8,6 +8,7 @@ public class BallPoints : MonoBehaviour
 
     private int points = 1;
     private GameObject nave = null;
+    private BoxCollider2D naveBoxC;
 
     public void SetPoints(int pts)
     {
@@ -21,6 +22,7 @@ public class BallPoints : MonoBehaviour
         else 
         { 
             nave = naveScript.gameObject;
+            naveBoxC = nave.GetComponent<BoxCollider2D>();
             StartCoroutine(MoveToPlayer());
         }
     }
@@ -34,6 +36,15 @@ public class BallPoints : MonoBehaviour
             yield return null;
             MoveBall(nave.transform.position, speed);
             speed += acceleration * Time.deltaTime;
+
+            // Por si el player se muere antes de recibir el punto
+            if (!naveBoxC.enabled)
+            {
+                if (transform.position == nave.transform.position)
+                {
+                    AddPoints();
+                }
+            }
         }
     }
 
@@ -47,11 +58,16 @@ public class BallPoints : MonoBehaviour
     {
         if (collider.gameObject.CompareTag("Player"))
         {
-            Mejoras.instance.AddPoints(points);
-
-            // SONIDO CONFIRMACION
-            
-            Destroy(gameObject);
+            AddPoints();
         }
+    }
+
+    private void AddPoints()
+    {
+        Mejoras.instance.AddPoints(points);
+
+        // SONIDO CONFIRMACION
+
+        Destroy(gameObject);
     }
 }

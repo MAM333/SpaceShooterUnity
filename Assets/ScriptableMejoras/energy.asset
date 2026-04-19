@@ -15,11 +15,14 @@ MonoBehaviour:
   id: energy
   nombre: "Energ\xEDa"
   description: "Mejora la energ\xEDa de la nave"
-  costs: 000000000a0000003200000096000000f4010000dc050000
+  costs: 000000000a000000320000009600000020030000dc050000b80b0000
   values:
   - 16
   - 32
   - 55
   - 85
   - 140
-  - 200
+  - 180
+  - 240
+  active: 1
+  notImplemented: 0

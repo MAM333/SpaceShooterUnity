@@ -65,6 +65,7 @@ public abstract class EnemyBase : MonoBehaviour
     public void GetDamage(int damage)
     {
         health -= damage;
+        SfxManager.instance.DamageEnemy();
         if (health < 0)
         {
             health = 0;
@@ -73,7 +74,6 @@ public abstract class EnemyBase : MonoBehaviour
         else if (timeWhiteAct == 0)
         { 
             timeWhiteAct = timeBeingWhite;
-            SfxManager.instance.DamageEnemy();
         }
     }
 
