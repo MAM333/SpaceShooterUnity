@@ -4,11 +4,13 @@ public class MainMenu : MonoBehaviour
 {
     public GameObject mainPage;
     public GameObject credits;
+    public GameObject rules;
 
     void Start()
     {
         mainPage.SetActive(true);
         credits.SetActive(false);
+        rules.SetActive(false);
     }
 
     public void NewGame()
@@ -29,12 +31,21 @@ public class MainMenu : MonoBehaviour
     {
         credits.SetActive(true);
         mainPage.SetActive(false);
+        rules.SetActive(false);
     }
 
     public void MainPage()
     {
         mainPage.SetActive(true);
         credits.SetActive(false);
+        rules.SetActive(false);
+    }
+
+    public void Rules()
+    {
+        mainPage.SetActive(false);
+        credits.SetActive(false);
+        rules.SetActive(true);
     }
 
     public void Exit()

@@ -16,6 +16,18 @@ PrefabInstance:
       propertyPath: speed
       value: 7.8
       objectReference: {fileID: 0}
+    - target: {fileID: 5710760185921704552, guid: a11ee2f334315234bb33676631cd9280, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5710760185921704552, guid: a11ee2f334315234bb33676631cd9280, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.3137255
+      objectReference: {fileID: 0}
+    - target: {fileID: 5710760185921704552, guid: a11ee2f334315234bb33676631cd9280, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0.9960785
+      objectReference: {fileID: 0}
     - target: {fileID: 6121344163492050472, guid: a11ee2f334315234bb33676631cd9280, type: 3}
       propertyPath: m_Name
       value: BalaLittleAnt3

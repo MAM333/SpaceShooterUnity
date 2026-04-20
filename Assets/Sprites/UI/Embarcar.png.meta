@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: ede282ffc572b504b810cc88a68521ab
+guid: 7a4a531d884f2f745bafa225e63fbddf
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6932397886694972819
-    second: Mejorar_0
+      213: 51449588140664985
+    second: Embarcar_0
   - first:
-      213: -3899373386248465010
-    second: Mejorar_1
+      213: 4737599313249149344
+    second: Embarcar_1
   - first:
-      213: -5636653293409507803
-    second: Mejorar_2
+      213: 5731546079752935483
+    second: Embarcar_2
   - first:
-      213: -1242161867936909337
-    second: Mejorar_3
+      213: 6079114089690702196
+    second: Embarcar_3
   - first:
-      213: -2131275845072387473
-    second: Mejorar_4
+      213: -6407025152953848590
+    second: Embarcar_4
   - first:
-      213: 205516861861081717
-    second: Mejorar_5
+      213: -4061294422795679330
+    second: Embarcar_5
   - first:
-      213: -141950274592837287
-    second: Mejorar_6
+      213: -1119414020582237126
+    second: Embarcar_6
   - first:
-      213: 5757104635252886891
-    second: Mejorar_7
+      213: -5481883515737976077
+    second: Embarcar_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -147,13 +147,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mejorar_0
+      name: Embarcar_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 16
-        width: 33
-        height: 29
+        x: 0
+        y: 0
+        width: 12
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,20 +162,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d62a0e9f9dc2bcf90800000000000000
-      internalID: -6932397886694972819
+      spriteID: 998e6f8b029c6b000800000000000000
+      internalID: 51449588140664985
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mejorar_1
+      name: Embarcar_1
       rect:
         serializedVersion: 2
-        x: 57
-        y: 41
-        width: 8
-        height: 6
+        x: 13
+        y: 0
+        width: 23
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,20 +184,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e855c02a094a2e9c0800000000000000
-      internalID: -3899373386248465010
+      spriteID: 0a1a95a79755fb140800000000000000
+      internalID: 4737599313249149344
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mejorar_2
+      name: Embarcar_2
       rect:
         serializedVersion: 2
-        x: 35
-        y: 17
-        width: 19
-        height: 22
+        x: 37
+        y: 0
+        width: 15
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,20 +206,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5266a44a1b596c1b0800000000000000
-      internalID: -5636653293409507803
+      spriteID: b38d471eaca8a8f40800000000000000
+      internalID: 5731546079752935483
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mejorar_3
+      name: Embarcar_3
       rect:
         serializedVersion: 2
-        x: 46
-        y: 5
-        width: 17
-        height: 33
+        x: 52
+        y: 0
+        width: 14
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,20 +228,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7e7b514cc54f2cee0800000000000000
-      internalID: -1242161867936909337
+      spriteID: 47126195e0a5d5450800000000000000
+      internalID: 6079114089690702196
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mejorar_4
+      name: Embarcar_4
       rect:
         serializedVersion: 2
-        x: 65
-        y: 16
-        width: 20
-        height: 22
+        x: 67
+        y: 0
+        width: 10
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,20 +250,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f62071039ef2c62e0800000000000000
-      internalID: -2131275845072387473
+      spriteID: 2fc613bb19ca517a0800000000000000
+      internalID: -6407025152953848590
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mejorar_5
+      name: Embarcar_5
       rect:
         serializedVersion: 2
-        x: 87
-        y: 16
-        width: 19
-        height: 22
+        x: 76
+        y: 0
+        width: 12
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -272,20 +272,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 572359a3f742ad200800000000000000
-      internalID: 205516861861081717
+      spriteID: e990df87d3263a7c0800000000000000
+      internalID: -4061294422795679330
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mejorar_6
+      name: Embarcar_6
       rect:
         serializedVersion: 2
-        x: 104
-        y: 16
-        width: 21
-        height: 22
+        x: 88
+        y: 0
+        width: 14
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -294,20 +294,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 951ff133af0b70ef0800000000000000
-      internalID: -141950274592837287
+      spriteID: a3c9a9211ea0770f0800000000000000
+      internalID: -1119414020582237126
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mejorar_7
+      name: Embarcar_7
       rect:
         serializedVersion: 2
-        x: 127
-        y: 16
-        width: 18
-        height: 22
+        x: 103
+        y: 0
+        width: 9
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -316,8 +316,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b6dc00fc92855ef40800000000000000
-      internalID: 5757104635252886891
+      spriteID: 3f25e589cff6ce3b0800000000000000
+      internalID: -5481883515737976077
       vertices: []
       indices: 
       edges: []
@@ -336,14 +336,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Mejorar_0: -6932397886694972819
-      Mejorar_1: -3899373386248465010
-      Mejorar_2: -5636653293409507803
-      Mejorar_3: -1242161867936909337
-      Mejorar_4: -2131275845072387473
-      Mejorar_5: 205516861861081717
-      Mejorar_6: -141950274592837287
-      Mejorar_7: 5757104635252886891
+      Embarcar_0: 51449588140664985
+      Embarcar_1: 4737599313249149344
+      Embarcar_2: 5731546079752935483
+      Embarcar_3: 6079114089690702196
+      Embarcar_4: -6407025152953848590
+      Embarcar_5: -4061294422795679330
+      Embarcar_6: -1119414020582237126
+      Embarcar_7: -5481883515737976077
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

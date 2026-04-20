@@ -216,6 +216,7 @@ RectTransform:
   - {fileID: 1684744418}
   - {fileID: 1828517108}
   - {fileID: 798408251}
+  - {fileID: 962540840}
   - {fileID: 949728908}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -514,8 +515,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 77}
-  m_SizeDelta: {x: 131.42857, y: 35}
+  m_AnchoredPosition: {x: 0, y: 87}
+  m_SizeDelta: {x: 149.33333, y: 25.333334}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &798408252
 MonoBehaviour:
@@ -593,7 +594,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 65056821ce4358346b720c07b6fa24d2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7a4a531d884f2f745bafa225e63fbddf, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -624,7 +625,7 @@ GameObject:
   - component: {fileID: 949728910}
   - component: {fileID: 949728909}
   m_Layer: 5
-  m_Name: RestartAll
+  m_Name: Exit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -646,8 +647,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 20.873001}
-  m_SizeDelta: {x: 60.714287, y: 35}
+  m_AnchoredPosition: {x: 0, y: 30.873001}
+  m_SizeDelta: {x: 65.333336, y: 24}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &949728909
 MonoBehaviour:
@@ -742,6 +743,81 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 949728907}
+  m_CullTransparentMesh: 1
+--- !u!1 &962540839
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 962540840}
+  - component: {fileID: 962540843}
+  - component: {fileID: 962540842}
+  m_Layer: 5
+  m_Name: Mejoras
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &962540840
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 962540839}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 560386940}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -49}
+  m_SizeDelta: {x: 204, y: 54.666668}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &962540842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 962540839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: af9ed590b6acc3e419229f2d783f7fe9, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &962540843
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 962540839}
   m_CullTransparentMesh: 1
 --- !u!1001 &1112789332
 PrefabInstance:
@@ -1141,6 +1217,10 @@ PrefabInstance:
     - target: {fileID: 942981283597527904, guid: 8de55883e219eb342b0302aad2349afa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4593626566787424037, guid: 8de55883e219eb342b0302aad2349afa, type: 3}
+      propertyPath: initY
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 7952504628096591394, guid: 8de55883e219eb342b0302aad2349afa, type: 3}
       propertyPath: m_Name

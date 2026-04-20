@@ -1,31 +1,40 @@
 fileFormatVersion: 2
-guid: ede282ffc572b504b810cc88a68521ab
+guid: ac5bacdfbc9bd6d41881dd411d213276
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6932397886694972819
-    second: Mejorar_0
+      213: -7113479977989563460
+    second: Controls_0
   - first:
-      213: -3899373386248465010
-    second: Mejorar_1
+      213: 7908859509845356740
+    second: Controls_1
   - first:
-      213: -5636653293409507803
-    second: Mejorar_2
+      213: -1182029525264311852
+    second: Controls_2
   - first:
-      213: -1242161867936909337
-    second: Mejorar_3
+      213: -9178436727053285969
+    second: Controls_3
   - first:
-      213: -2131275845072387473
-    second: Mejorar_4
+      213: 5435598692034458543
+    second: Controls_4
   - first:
-      213: 205516861861081717
-    second: Mejorar_5
+      213: 7677017001573760164
+    second: Controls_5
   - first:
-      213: -141950274592837287
-    second: Mejorar_6
+      213: 5662351501324986388
+    second: Controls_6
   - first:
-      213: 5757104635252886891
-    second: Mejorar_7
+      213: -3769267780431834326
+    second: Controls_7
+  - first:
+      213: 2932384999566084858
+    second: Controls_8
+  - first:
+      213: -6868126324245476403
+    second: Controls_9
+  - first:
+      213: -7771949253885567686
+    second: Controls_10
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -147,13 +156,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mejorar_0
+      name: Controls_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 16
-        width: 33
-        height: 29
+        x: 111
+        y: 180
+        width: 153
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,40 +171,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d62a0e9f9dc2bcf90800000000000000
-      internalID: -6932397886694972819
+      spriteID: cbb141b16a7d74d90800000000000000
+      internalID: -7113479977989563460
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mejorar_1
+      name: Controls_1
       rect:
         serializedVersion: 2
-        x: 57
-        y: 41
-        width: 8
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e855c02a094a2e9c0800000000000000
-      internalID: -3899373386248465010
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mejorar_2
-      rect:
-        serializedVersion: 2
-        x: 35
-        y: 17
+        x: 120
+        y: 186
         width: 19
         height: 22
       alignment: 0
@@ -206,107 +193,63 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5266a44a1b596c1b0800000000000000
-      internalID: -5636653293409507803
+      spriteID: 4c07dce32d9e1cd60800000000000000
+      internalID: 7908859509845356740
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mejorar_3
+      name: Controls_2
       rect:
         serializedVersion: 2
-        x: 46
-        y: 5
-        width: 17
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7e7b514cc54f2cee0800000000000000
-      internalID: -1242161867936909337
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mejorar_4
-      rect:
-        serializedVersion: 2
-        x: 65
-        y: 16
-        width: 20
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f62071039ef2c62e0800000000000000
-      internalID: -2131275845072387473
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mejorar_5
-      rect:
-        serializedVersion: 2
-        x: 87
-        y: 16
-        width: 19
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 572359a3f742ad200800000000000000
-      internalID: 205516861861081717
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mejorar_6
-      rect:
-        serializedVersion: 2
-        x: 104
-        y: 16
-        width: 21
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 951ff133af0b70ef0800000000000000
-      internalID: -141950274592837287
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mejorar_7
-      rect:
-        serializedVersion: 2
-        x: 127
-        y: 16
+        x: 139
+        y: 186
         width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d9d890d866989fe0800000000000000
+      internalID: -1182029525264311852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controls_3
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 186
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa5079a1d64af9080800000000000000
+      internalID: -9178436727053285969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controls_4
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 186
+        width: 12
         height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -316,8 +259,140 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b6dc00fc92855ef40800000000000000
-      internalID: 5757104635252886891
+      spriteID: fa3ba4c16302f6b40800000000000000
+      internalID: 5435598692034458543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controls_5
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 186
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ac3071d94e3a8a60800000000000000
+      internalID: 7677017001573760164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controls_6
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 186
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41820e5a0b6b49e40800000000000000
+      internalID: 5662351501324986388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controls_7
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 186
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2319049ceed0bbc0800000000000000
+      internalID: -3769267780431834326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controls_8
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 186
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afa02d3ee9ce1b820800000000000000
+      internalID: 2932384999566084858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controls_9
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 186
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcbc6da3f738fa0a0800000000000000
+      internalID: -6868126324245476403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Controls_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 378
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3dd9c5c45d742490800000000000000
+      internalID: -7771949253885567686
       vertices: []
       indices: 
       edges: []
@@ -336,14 +411,17 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Mejorar_0: -6932397886694972819
-      Mejorar_1: -3899373386248465010
-      Mejorar_2: -5636653293409507803
-      Mejorar_3: -1242161867936909337
-      Mejorar_4: -2131275845072387473
-      Mejorar_5: 205516861861081717
-      Mejorar_6: -141950274592837287
-      Mejorar_7: 5757104635252886891
+      Controls_0: -7113479977989563460
+      Controls_1: 7908859509845356740
+      Controls_10: -7771949253885567686
+      Controls_2: -1182029525264311852
+      Controls_3: -9178436727053285969
+      Controls_4: 5435598692034458543
+      Controls_5: 7677017001573760164
+      Controls_6: 5662351501324986388
+      Controls_7: -3769267780431834326
+      Controls_8: 2932384999566084858
+      Controls_9: -6868126324245476403
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
