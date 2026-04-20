@@ -4849,7 +4849,7 @@ GameObject:
   - component: {fileID: 7375071377514546286}
   - component: {fileID: 5102039168564714874}
   m_Layer: 0
-  m_Name: Trophy
+  m_Name: EpicTrophy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

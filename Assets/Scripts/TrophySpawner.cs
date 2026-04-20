@@ -14,7 +14,8 @@ public class TrophySpawner : MonoBehaviour
 
     private void Awake()
     {
-        instance = this;
+        if (instance == null) instance = this;
+        else Destroy(gameObject);
     }
 
     public Sprite GetSpriteByLetter(string letter)

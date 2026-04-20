@@ -4956,7 +4956,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 838848a825964f542baeefd1abe3bee3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrophySpawner
-  trophy: {fileID: 0}
+  trophy: {fileID: 7599261437802299441, guid: f8a823020dbabf34089e4843f89e6ead, type: 3}
   trophyS: {fileID: 1687862380882984177, guid: 9cefff3752e189b4d9ea1160809e5ebb, type: 3}
   trophyA: {fileID: 1093565035, guid: 9cefff3752e189b4d9ea1160809e5ebb, type: 3}
   trophyB: {fileID: 890421537, guid: 9cefff3752e189b4d9ea1160809e5ebb, type: 3}

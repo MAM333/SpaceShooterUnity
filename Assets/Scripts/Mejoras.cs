@@ -58,7 +58,13 @@ public class Mejoras : MonoBehaviour
         playerUpgrades = data.playerUpgrades;
         points = data.puntos;
         numOfEmbarcations = data.numOfEmbarcations;
-        trophy = data.trophy;
+
+        if (data.trophy != null) trophy = data.trophy;
+        else 
+        { 
+            trophy = "z";
+            SaveToBd();
+        }
     }
 
     private void Start()
