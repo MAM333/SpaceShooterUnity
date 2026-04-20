@@ -1,0 +1,1287 @@
+fileFormatVersion: 2
+guid: c23adbd95274c784699f0b81f5f7e9ca
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -608245970070621390
+    second: Perseverado_0
+  - first:
+      213: 2203112486750333284
+    second: Perseverado_1
+  - first:
+      213: -3827142899045323891
+    second: Perseverado_2
+  - first:
+      213: -3793052179024402070
+    second: Perseverado_3
+  - first:
+      213: -5938612330155406417
+    second: Perseverado_4
+  - first:
+      213: 5957581338713724600
+    second: Perseverado_5
+  - first:
+      213: -1084048762109943983
+    second: Perseverado_6
+  - first:
+      213: -9030806214991891413
+    second: Perseverado_7
+  - first:
+      213: -4013186545034338481
+    second: Perseverado_8
+  - first:
+      213: -733382181570815867
+    second: Perseverado_9
+  - first:
+      213: 183261997849645725
+    second: Perseverado_10
+  - first:
+      213: 4023223605109171754
+    second: Perseverado_11
+  - first:
+      213: -2598519279859007923
+    second: Perseverado_12
+  - first:
+      213: 2874974858885162231
+    second: Perseverado_13
+  - first:
+      213: 6297918081754191638
+    second: Perseverado_14
+  - first:
+      213: 2697127468223385744
+    second: Perseverado_15
+  - first:
+      213: -6603038246453880290
+    second: Perseverado_16
+  - first:
+      213: 28808859178595060
+    second: Perseverado_17
+  - first:
+      213: 6318301162158505364
+    second: Perseverado_18
+  - first:
+      213: 1412531377885356694
+    second: Perseverado_19
+  - first:
+      213: -8808857362008549710
+    second: Perseverado_20
+  - first:
+      213: 5096004389670794873
+    second: Perseverado_21
+  - first:
+      213: -7660591697857261703
+    second: Perseverado_22
+  - first:
+      213: 2985065394390389212
+    second: Perseverado_23
+  - first:
+      213: -3819150448785263778
+    second: Perseverado_24
+  - first:
+      213: 3349427786037071665
+    second: Perseverado_25
+  - first:
+      213: -1819590619857277785
+    second: Perseverado_26
+  - first:
+      213: -3279149054039744840
+    second: Perseverado_27
+  - first:
+      213: 7348154786370938705
+    second: Perseverado_28
+  - first:
+      213: -6881511616728014864
+    second: Perseverado_29
+  - first:
+      213: -4782495799206737524
+    second: Perseverado_30
+  - first:
+      213: 687381099660789436
+    second: Perseverado_31
+  - first:
+      213: -8288473385516919614
+    second: Perseverado_32
+  - first:
+      213: -7758160524535194444
+    second: Perseverado_33
+  - first:
+      213: 3364024089734762206
+    second: Perseverado_34
+  - first:
+      213: 8630624857358728655
+    second: Perseverado_35
+  - first:
+      213: 1733427355210881407
+    second: Perseverado_36
+  - first:
+      213: 5595109545380289210
+    second: Perseverado_37
+  - first:
+      213: 3544574065574977894
+    second: Perseverado_38
+  - first:
+      213: 2796328450625309937
+    second: Perseverado_39
+  - first:
+      213: -1367135963347446112
+    second: Perseverado_40
+  - first:
+      213: 6801378659421123578
+    second: Perseverado_41
+  - first:
+      213: -5595791168461577801
+    second: Perseverado_42
+  - first:
+      213: -3725004865867647152
+    second: Perseverado_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 140
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Perseverado_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 15
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 233b0e943831f87f0800000000000000
+      internalID: -608245970070621390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perseverado_1
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 17
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4692bf45227039e10800000000000000
+      internalID: 2203112486750333284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perseverado_2
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 17
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8baeb57fc143eac0800000000000000
+      internalID: -3827142899045323891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perseverado_3
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a69aabeb32f5c5bc0800000000000000
+      internalID: -3793052179024402070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perseverado_4
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 17
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fab0552cc8fc59da0800000000000000
+      internalID: -5938612330155406417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perseverado_5
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 16
+        width: 9
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b61786b9a49da250800000000000000
+      internalID: 5957581338713724600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perseverado_6
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 16
+        width: 9
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15f1c37f46fa4f0f0800000000000000
+      internalID: -1084048762109943983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perseverado_7
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 17
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b24b40048912ca280800000000000000
+      internalID: -9030806214991891413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perseverado_8
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 16
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4fd9dd991c4e48c0800000000000000
+      internalID: -4013186545034338481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perseverado_9
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 38
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 588dede9ac082d5f0800000000000000
+      internalID: -733382181570815867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perseverado_10
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 16
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9218aae0d31b8200800000000000000
+      internalID: 183261997849645725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perseverado_11
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 16
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a26af7a8d8c55d730800000000000000
+      internalID: 4023223605109171754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perseverado_12
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 5
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4efff58b7430fbd0800000000000000
+      internalID: -2598519279859007923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perseverado_13
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 17
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f46702e666f5e720800000000000000
+      internalID: 2874974858885162231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perseverado_14
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 16
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 617d777a023b66750800000000000000
+      internalID: 6297918081754191638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perseverado_15
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 16
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0905761742f1e6520800000000000000
+      internalID: 2697127468223385744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perseverado_16
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 17
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1a5cc103bb4d54a0800000000000000
+      internalID: -6603038246453880290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perseverado_17
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 15
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f279b93189566000800000000000000
+      internalID: 28808859178595060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perseverado_18
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 17
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49d35626e6d1fa750800000000000000
+      internalID: 6318301162158505364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perseverado_19
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 16
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69223f4edc15a9310800000000000000
+      internalID: 1412531377885356694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perseverado_20
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 16
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b6556c86e6a0c580800000000000000
+      internalID: -8808857362008549710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perseverado_21
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 16
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 976b82c1ef4a8b640800000000000000
+      internalID: 5096004389670794873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perseverado_22
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 6
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97f49e7307c10b590800000000000000
+      internalID: -7660591697857261703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perseverado_23
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 16
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd153ff19251d6920800000000000000
+      internalID: 2985065394390389212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perseverado_24
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 16
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e53716cc6e6affac0800000000000000
+      internalID: -3819150448785263778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perseverado_25
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 16
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13f009b43de8b7e20800000000000000
+      internalID: 3349427786037071665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perseverado_26
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 16
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ac26cac8f38fb6e0800000000000000
+      internalID: -1819590619857277785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perseverado_27
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 16
+        width: 40
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8be176c1f4f1e72d0800000000000000
+      internalID: -3279149054039744840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perseverado_28
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 17
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 157e93498d3e9f560800000000000000
+      internalID: 7348154786370938705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perseverado_29
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 6
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ffd337f4a5ff70a0800000000000000
+      internalID: -6881511616728014864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perseverado_30
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 17
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c890c7cc86921adb0800000000000000
+      internalID: -4782495799206737524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perseverado_31
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 16
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb6499ed7711a8900800000000000000
+      internalID: 687381099660789436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perseverado_32
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 16
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c41cfdbe5d69fc80800000000000000
+      internalID: -8288473385516919614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perseverado_33
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 17
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bc1f908b1a755490800000000000000
+      internalID: -7758160524535194444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perseverado_34
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 6
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ede4f74161a6fae20800000000000000
+      internalID: 3364024089734762206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perseverado_35
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 16
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcdf58ca49326c770800000000000000
+      internalID: 8630624857358728655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perseverado_36
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 16
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f791a47defe5e0810800000000000000
+      internalID: 1733427355210881407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perseverado_37
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 16
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aba1ac3cc72d5ad40800000000000000
+      internalID: 5595109545380289210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perseverado_38
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 16
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 661a8aa255bd03130800000000000000
+      internalID: 3544574065574977894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perseverado_39
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 16
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fc07d609ed8ec620800000000000000
+      internalID: 2796328450625309937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perseverado_40
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 6
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a69301b515f60de0800000000000000
+      internalID: -1367135963347446112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perseverado_41
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 17
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af3f7b10bd9536e50800000000000000
+      internalID: 6801378659421123578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perseverado_42
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 16
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b1649e7491c752b0800000000000000
+      internalID: -5595791168461577801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perseverado_43
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 18
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0577b577fcf1e4cc0800000000000000
+      internalID: -3725004865867647152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Perseverado_0: -608245970070621390
+      Perseverado_1: 2203112486750333284
+      Perseverado_10: 183261997849645725
+      Perseverado_11: 4023223605109171754
+      Perseverado_12: -2598519279859007923
+      Perseverado_13: 2874974858885162231
+      Perseverado_14: 6297918081754191638
+      Perseverado_15: 2697127468223385744
+      Perseverado_16: -6603038246453880290
+      Perseverado_17: 28808859178595060
+      Perseverado_18: 6318301162158505364
+      Perseverado_19: 1412531377885356694
+      Perseverado_2: -3827142899045323891
+      Perseverado_20: -8808857362008549710
+      Perseverado_21: 5096004389670794873
+      Perseverado_22: -7660591697857261703
+      Perseverado_23: 2985065394390389212
+      Perseverado_24: -3819150448785263778
+      Perseverado_25: 3349427786037071665
+      Perseverado_26: -1819590619857277785
+      Perseverado_27: -3279149054039744840
+      Perseverado_28: 7348154786370938705
+      Perseverado_29: -6881511616728014864
+      Perseverado_3: -3793052179024402070
+      Perseverado_30: -4782495799206737524
+      Perseverado_31: 687381099660789436
+      Perseverado_32: -8288473385516919614
+      Perseverado_33: -7758160524535194444
+      Perseverado_34: 3364024089734762206
+      Perseverado_35: 8630624857358728655
+      Perseverado_36: 1733427355210881407
+      Perseverado_37: 5595109545380289210
+      Perseverado_38: 3544574065574977894
+      Perseverado_39: 2796328450625309937
+      Perseverado_4: -5938612330155406417
+      Perseverado_40: -1367135963347446112
+      Perseverado_41: 6801378659421123578
+      Perseverado_42: -5595791168461577801
+      Perseverado_43: -3725004865867647152
+      Perseverado_5: 5957581338713724600
+      Perseverado_6: -1084048762109943983
+      Perseverado_7: -9030806214991891413
+      Perseverado_8: -4013186545034338481
+      Perseverado_9: -733382181570815867
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

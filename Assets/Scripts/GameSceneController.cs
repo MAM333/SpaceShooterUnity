@@ -39,6 +39,8 @@ public class GameSceneController : MonoBehaviour
 
         if (goToUpgrades.action.ReadValue<float>() > 0)
         {
+            Mejoras.instance.SaveToBd();
+
             SceneManagement.instance.LoadImprovements();
         }
     }

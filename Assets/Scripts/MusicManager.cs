@@ -22,12 +22,14 @@ public class MusicManager : MonoBehaviour
         // El juego da errores al reproducir la musica la primera vez asi que las reproduzco y las paro antes de empezar
         PlayGameTheme();
         PlayBossTheme();
+        PlayWinTheme();
 
         PlayMainMenuTheme();
     }
 
-    private void PlayTrack(AudioClip track)
+    private void PlayTrack(AudioClip track, float volume)
     {
+        audioSource.volume = volume;
         if (audioSource.clip == track && audioSource.isPlaying) return;
         if (audioSource.isPlaying) audioSource.Stop();
         audioSource.clip = track;
@@ -36,21 +38,27 @@ public class MusicManager : MonoBehaviour
 
     public void PlayMainMenuTheme()
     {
-        PlayTrack(mainMenuTheme);
+        PlayTrack(mainMenuTheme, 0.166f);
     }
 
     public void PlayGameTheme()
     {
-        PlayTrack(gameTheme);
+        PlayTrack(gameTheme, 0.166f);
     }
 
     public void PlayBossTheme()
     {
-        PlayTrack(bossTheme);
+        PlayTrack(bossTheme, 0.166f);
     }
 
     public void PlayWinTheme()
     {
-        PlayTrack(winTheme);
+
+        PlayTrack(winTheme, 0.35f);
+    }
+
+    public void StopMusic()
+    {
+        audioSource.Stop();
     }
 }

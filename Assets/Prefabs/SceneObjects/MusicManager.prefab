@@ -145,4 +145,4 @@ MonoBehaviour:
   mainMenuTheme: {fileID: 8300000, guid: 902d5609d97637249a21b7075bf44321, type: 3}
   gameTheme: {fileID: 8300000, guid: 3b9e57ddc89a02f408fceb2fc26700c4, type: 3}
   bossTheme: {fileID: 8300000, guid: 0886f9c5773fac44b88ec3d0de1a0299, type: 3}
-  winTheme: {fileID: 8300000, guid: 902d5609d97637249a21b7075bf44321, type: 3}
+  winTheme: {fileID: 8300000, guid: 02d85ba0bb79de34dac5985b2e81fbfc, type: 3}

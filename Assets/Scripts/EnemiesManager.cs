@@ -217,6 +217,8 @@ public class EnemiesManager : MonoBehaviour
             }
             else
             {
+                MusicManager.instance.StopMusic();
+
                 int numWaves = Mejoras.instance.GetNumEmbarcations();
                 string letter = "s";
                 if (numWaves > 80) letter = "e";

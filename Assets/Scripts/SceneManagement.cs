@@ -39,4 +39,11 @@ public class SceneManagement : MonoBehaviour
 
         SceneManager.LoadScene(2);
     }
+
+    public void LoadCongratulations()
+    {
+        Time.timeScale = 1;
+
+        SceneManager.LoadScene(3);
+    }
 }

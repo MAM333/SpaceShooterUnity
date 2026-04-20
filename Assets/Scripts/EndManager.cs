@@ -23,7 +23,7 @@ public class EndManager : MonoBehaviour
                 Mejoras.instance.SaveToBd();
 
                 if (!gameCompleted) SceneManagement.instance.LoadImprovements(); 
-                else SceneManagement.instance.GoToMainMenu();
+                else SceneManagement.instance.LoadCongratulations();
             }
         }
     }
