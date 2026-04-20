@@ -5,7 +5,7 @@ public enum PowerUpType
     None = 0,
     Bullets = 1,
     Inmune = 2,
-    Nuke = 3,
+    Energy = 3,
 }
 
 public class PowerUp : MonoBehaviour

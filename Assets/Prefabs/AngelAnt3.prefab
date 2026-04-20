@@ -21,6 +21,10 @@ PrefabInstance:
       value: 4500
       objectReference: {fileID: 0}
     - target: {fileID: 3831625269107172406, guid: c8e471f5c9268074da6097b015e13a65, type: 3}
+      propertyPath: laserClip
+      value: 
+      objectReference: {fileID: 8300000, guid: c1388bd690e11a34ead86cee1fe673b3, type: 3}
+    - target: {fileID: 3831625269107172406, guid: c8e471f5c9268074da6097b015e13a65, type: 3}
       propertyPath: littleAnt
       value: 
       objectReference: {fileID: 224064804134331000, guid: b4f15d0b6b180124988befb2f1c43a60, type: 3}

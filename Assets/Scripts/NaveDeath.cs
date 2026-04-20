@@ -21,10 +21,18 @@ public class NaveDeath : MonoBehaviour
         deathParticles.SetActive(false);
     }
 
-    public void Die()
+    public void Die(bool byEnergy)
     {
-        deathParticles.SetActive(true);
-        fueguitos.SetActive(false);
+        if (byEnergy)
+        {
+            SfxManager.instance.EnergyLoss();
+        }
+        else
+        {
+            deathParticles.SetActive(true);
+            fueguitos.SetActive(false);
+        }
+
         spr.enabled = false;
     }
 }

@@ -27,6 +27,7 @@ public class NaveController : MonoBehaviour
     private Color initColor;
     private float actDelayShoot = 0f;
     private NaveLife naveLife;
+    private NaveEnergy naveEnergy;
     private bool canMove = true;
 
     private void Awake()
@@ -34,6 +35,7 @@ public class NaveController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         spr = GetComponent<SpriteRenderer>();
         naveLife = GetComponent<NaveLife>();
+        naveEnergy = GetComponent<NaveEnergy>();
     }
 
     private void OnEnable()
@@ -77,19 +79,18 @@ public class NaveController : MonoBehaviour
 
     private void PowerUpBehaviour(PowerUpType type, float duration, Color newColor)
     {
+        switch (type)
+        {
+            case PowerUpType.Energy:
+                naveEnergy.RecoverEnergy(25f);
+                return;
+        }
+
         powerUpAct = type;
         powerUpTimer = duration;
         spr.color = newColor;
 
-        switch (type)
-        {
-            case PowerUpType.Nuke: 
-                //Destruir a los enemigos
-                break;
-
-            case PowerUpType.Bullets:
-                break;
-        }
+        TimerPowerUp.instance.SetTimerPowerUp(duration);
     }
 
     private void OnTriggerEnter2D(Collider2D collider)

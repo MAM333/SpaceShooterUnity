@@ -299,6 +299,7 @@ MonoBehaviour:
   posLeft: {x: 3.5, y: 0, z: 0}
   posDown: {x: 5, y: -3, z: 0}
   laser: {fileID: 2327422739304426082}
+  laserClip: {fileID: 8300000, guid: e7c7924e96ede6f45aaa930b3bbdf68b, type: 3}
 --- !u!95 &8235641335035515841
 Animator:
   serializedVersion: 7

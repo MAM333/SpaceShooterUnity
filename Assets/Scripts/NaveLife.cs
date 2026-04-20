@@ -39,11 +39,12 @@ public class NaveLife : MonoBehaviour
             health -= damage;
             SfxManager.instance.DamageEnemy();
             HeartsUI.instance.SetHearts(health);
+            CameraShake.instance.ShakeCamera(0.3f);
 
             if (health <= 0)
             {
                 boxC.enabled = false;
-                energy.Death();
+                energy.Death(false);
                 controller.NotMove();
                 EndManager.instance.EndGame();
             }
@@ -72,9 +73,9 @@ public class NaveLife : MonoBehaviour
         canReceiveDamage = true;
     }
 
-    public void Death()
+    public void Death(bool byEnergy)
     {
         boxC.enabled = false;
-        NaveDeath.instance.Die();
+        NaveDeath.instance.Die(byEnergy);
     }
 }

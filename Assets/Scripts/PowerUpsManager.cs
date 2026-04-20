@@ -5,7 +5,7 @@ public class PowerUpsManager : MonoBehaviour
     public static PowerUpsManager instance;
 
     public GameObject bulletPowerUp;
-    public GameObject nukePowerUp;
+    public GameObject energyPowerUp;
     public GameObject inmunePowerUp;
 
     private void Awake()
@@ -17,11 +17,11 @@ public class PowerUpsManager : MonoBehaviour
     {
         GameObject powerUp;
 
-        int num = Random.Range(0, 3);
+        int num = Random.Range(0, 4);
         switch (num)
         {
             case 0: powerUp = bulletPowerUp; break;
-            case 1: powerUp = nukePowerUp; break; 
+            case 1: powerUp = energyPowerUp; break; 
             case 2: powerUp = inmunePowerUp; break;
 
             default: powerUp = bulletPowerUp; break;

@@ -15,7 +15,7 @@ MonoBehaviour:
   id: shootRate
   nombre: Cadencia de disparo
   description: Aumenta la cadencia de disparo de la nave
-  costs: 000000001400000064000000f4010000c409000010270000
+  costs: 000000000f00000064000000f4010000c409000010270000
   values:
   - 0.5
   - 0.4

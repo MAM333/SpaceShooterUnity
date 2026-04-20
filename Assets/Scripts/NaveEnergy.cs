@@ -37,7 +37,7 @@ public class NaveEnergy : MonoBehaviour
         
             if (energyAct < 0)
             {
-                naveLife.Death();
+                naveLife.Death(true);
                 energyAct = 0;
                 EnergyBarUI.instance.ShowBarToThePlayer();
                 controller.NotMove();
@@ -46,6 +46,13 @@ public class NaveEnergy : MonoBehaviour
         
             EnergyBarUI.instance.SetEnergyBar(energyAct / energyMax * 100);
         }
+    }
+
+    public void RecoverEnergy(float percentage)
+    {
+        float sum = energyAct + percentage / 100 * energyMax;
+        if (sum > energyMax) sum = energyMax;
+        energyAct = sum;
     }
 
     public void StopLossingEnergy(float time)
@@ -67,9 +74,9 @@ public class NaveEnergy : MonoBehaviour
         energyStop = false;
     }
 
-    public void Death()
+    public void Death(bool byEnergy)
     {
         isDeath = true;
-        NaveDeath.instance.Die();
+        NaveDeath.instance.Die(byEnergy);
     }
 }

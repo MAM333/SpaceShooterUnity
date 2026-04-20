@@ -26,7 +26,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2047871994529634516, guid: e9e3cfd74be67404e99ac05fa809ce2a, type: 3}
       propertyPath: m_Name
-      value: PowerUpNuke
+      value: PowerUpEnergy
       objectReference: {fileID: 0}
     - target: {fileID: 2934848491156277581, guid: e9e3cfd74be67404e99ac05fa809ce2a, type: 3}
       propertyPath: m_Sprite

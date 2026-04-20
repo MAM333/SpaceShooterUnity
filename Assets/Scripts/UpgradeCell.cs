@@ -18,12 +18,10 @@ public class UpgradeCell : MonoBehaviour
         }
         else if (canTake)
         {
-            // COLOR VERDE
             image.color = Color.green;
         }
         else
         {
-            // COLOR ROJO
             image.color = Color.red;
             if (Mejoras.instance.GetCostNextUpgrade(upgradeObject) == -1)
             {
@@ -47,14 +45,8 @@ public class UpgradeCell : MonoBehaviour
     {
         bool upgraded = Mejoras.instance.TakeUpgrade(upgradeObject);
 
-        if (!upgraded)
-        {
-            // TIRA UN SONIDO MALO
-        }
-        else
-        {
-            // TIRA UN SONIDO DE CONFIRMACION
-        }
+        if (!upgraded) SfxManager.instance.DamageEnemy();
+        else SfxManager.instance.BallPoint();
 
         UpgradeCellsManager.instance.ActualizeAllCells();
     }

@@ -66,7 +66,8 @@ public class BallPoints : MonoBehaviour
     {
         Mejoras.instance.AddPoints(points);
 
-        // SONIDO CONFIRMACION
+        SfxManager.instance.BallPoint();
+        Numbers.instance.ShowNumber(points);
 
         Destroy(gameObject);
     }

@@ -18,6 +18,7 @@ public class EnemyBoss : EnemyBase
     public Vector3 posLeft;
     public Vector3 posDown;
     public LaserBoss laser;
+    public AudioClip laserClip;
 
     private bool apearing = true;
 
@@ -208,6 +209,7 @@ public class EnemyBoss : EnemyBase
         laser.Attack();
         lastAttack = 3;
 
+        SfxManager.instance.LaserEnemy(laserClip);
         while (laser.IsAttacking())
         {
             yield return null;

@@ -6,6 +6,9 @@ public class SfxManager : MonoBehaviour
 
     public AudioSource disparos;
     public AudioSource damageEnemy;
+    public AudioSource ballPoint;
+    public AudioSource laser;
+    public AudioSource energyLoss;
 
     private void Awake()
     {
@@ -15,7 +18,14 @@ public class SfxManager : MonoBehaviour
     void Start()
     {
         disparos.Play();
+        damageEnemy.Play();
+        ballPoint.Play();
+        laser.Play();
+
         disparos.Stop();
+        damageEnemy.Stop();
+        ballPoint.Stop();
+        laser.Stop();
     }
 
     public void Shooting(bool shooting)
@@ -27,5 +37,21 @@ public class SfxManager : MonoBehaviour
     public void DamageEnemy()
     {
         damageEnemy.Play();
+    }
+
+    public void BallPoint()
+    {
+        ballPoint.Play();
+    }
+
+    public void LaserEnemy(AudioClip laserType)
+    {
+        laser.clip = laserType;
+        laser.Play();
+    }
+
+    public void EnergyLoss()
+    {
+        energyLoss.Play();
     }
 }

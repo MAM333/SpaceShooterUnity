@@ -15,7 +15,7 @@ MonoBehaviour:
   id: earnPointsOfEnemy1
   nombre: Puntos adicionales
   description: Mejora la cantidad de puntos que te dan los enemigos azules
-  costs: 00000000140000006400000040060000
+  costs: 000000000a0000005000000040060000
   values:
   - 1
   - 3

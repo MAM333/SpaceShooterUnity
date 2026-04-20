@@ -8,6 +8,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 150940301647603430, guid: 97c04d80d06664c44be498638333f9b0, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.86274517
+      objectReference: {fileID: 0}
+    - target: {fileID: 150940301647603430, guid: 97c04d80d06664c44be498638333f9b0, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.59607846
+      objectReference: {fileID: 0}
+    - target: {fileID: 150940301647603430, guid: 97c04d80d06664c44be498638333f9b0, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1849835215458583206, guid: 97c04d80d06664c44be498638333f9b0, type: 3}
       propertyPath: m_Name
       value: BalaLittleAnt
@@ -15,6 +27,34 @@ PrefabInstance:
     - target: {fileID: 1849835215458583206, guid: 97c04d80d06664c44be498638333f9b0, type: 3}
       propertyPath: m_TagString
       value: EnemyBullet
+      objectReference: {fileID: 0}
+    - target: {fileID: 3493984936510640369, guid: 97c04d80d06664c44be498638333f9b0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3493984936510640369, guid: 97c04d80d06664c44be498638333f9b0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3493984936510640369, guid: 97c04d80d06664c44be498638333f9b0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3493984936510640369, guid: 97c04d80d06664c44be498638333f9b0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3493984936510640369, guid: 97c04d80d06664c44be498638333f9b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -180
+      objectReference: {fileID: 0}
+    - target: {fileID: 3493984936510640369, guid: 97c04d80d06664c44be498638333f9b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3493984936510640369, guid: 97c04d80d06664c44be498638333f9b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 3588378241036904877, guid: 97c04d80d06664c44be498638333f9b0, type: 3}
       propertyPath: m_LocalPosition.x

@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 public class SceneManagement : MonoBehaviour
@@ -13,6 +14,8 @@ public class SceneManagement : MonoBehaviour
 
     public void GoToMainMenu()
     {
+        Time.timeScale = 1;
+
         MusicManager.instance.PlayMainMenuTheme();
 
         SceneManager.LoadScene(0);
@@ -20,6 +23,8 @@ public class SceneManagement : MonoBehaviour
 
     public void LoadGame()
     {
+        Time.timeScale = 1;
+
         // +1 on embarcations
         Mejoras.instance.SumAndSaveEmbarcations();
 
@@ -28,6 +33,10 @@ public class SceneManagement : MonoBehaviour
     
     public void LoadImprovements()
     {
+        Time.timeScale = 1;
+
+        MusicManager.instance.PlayGameTheme();
+
         SceneManager.LoadScene(2);
     }
 }
